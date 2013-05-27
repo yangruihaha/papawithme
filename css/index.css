@@ -57,15 +57,17 @@ body{
 	border-bottom-right-radius:10px;
 	border-bottom-left-radius:10px;
 	box-shadow:0 0 10px #000;
-	height:50px;
+	height:100px;
 }
 
 #header .site_name{
 	float:left;
 	display:inline;
-	font-size:15px;
+	font-size:30px;
+	font-family:"Comic Sans MS", cursive;
 	line-height:50px;
 	padding-left: 20px;
+	padding-top: 20px;
 	color: #ffffff;
 }
 
@@ -80,20 +82,20 @@ ul.menu li{
 	display:inline;
 	font-size:11px;
 	font-weight:bold;
-	line-height:50px;
-}
+	line-height:100px;
 
-ul.menu li.register{
-	border-right: 1px solid #ffffff;
 }
 
 ul.menu a{
-	padding:0 8px 0px 8px; 
+	
 	color:#999;
-	font-size:12px;	
+	font-size:24px;	
+	font-family:微软雅黑;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 20px;
 }
 
 ul.menu a:hover{
 	color:#fff;
 }
-
