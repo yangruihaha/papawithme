@@ -1,101 +1,25 @@
-@charset "utf-8";
-/* CSS Document */
-html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
-    padding: 0;
-    margin: 0;
-    font-size: 100%;
-    font-weight: normal;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-td, th, caption {
-    font-weight: normal;
-    text-align: left; 
-}
-img, fieldset { 
-    border: 0; 
-}
-ol { 
-    padding-left: 1.4em; 
-    list-style: decimal;
-}
-ul { 
-    padding-left: 1.4em; 
-    list-style: none; 
-}
-q:before, q:after {
-    content:''; 
-}
-a {
-    text-decoration: none;
-}
-
-/* Begin CSS */
-body {
-	padding:0px;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	margin: 0px auto auto auto;
-	color:#000;
-}
-
 body{
-	background:url(../UI/welcome-L.png);
+	background:url(../resources/bg/background.png);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
 
-#main_container{
-	width: 1000px;
-	margin: 0 auto;
-}
+div{
+	margin-top: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1187px;
+	}
 
-#header{
-	background:#000000;
-	border-bottom-right-radius:10px;
-	border-bottom-left-radius:10px;
-	box-shadow:0 0 10px #000;
-	height:100px;
-}
+li{
+	display: inline-block;
 
-#header .site_name{
-	float:left;
-	display:inline;
-	font-size:30px;
-	font-family:"Comic Sans MS", cursive;
-	line-height:50px;
-	padding-left: 20px;
-	padding-top: 20px;
-	color: #ffffff;
-}
-
-ul.menu{
-	float:right;
-	display:inline;
-	width:auto;
-	padding-right: 20px;
-}
-
-ul.menu li{
-	display:inline;
-	font-size:11px;
-	font-weight:bold;
-	line-height:100px;
-
-}
-
-ul.menu a{
+	margin-left: 100px;
 	
-	color:#999;
-	font-size:24px;	
-	font-family:微软雅黑;
-	padding-right: 8px;
-	padding-left: 8px;
-	padding-top: 20px;
-}
+	}
 
-ul.menu a:hover{
-	color:#fff;
-}
+img{
+	height: 100px;
+	width: 100px;
+	opacity: 0.5;
+	}
