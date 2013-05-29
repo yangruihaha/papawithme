@@ -24,13 +24,13 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('.bolg').bind("mouseover",function() {
+    $('.blog').bind("mouseover",function() {
 		$(this).css("opacity","1");
-        $('#bolg').css("opacity","1");
+        $('#blog').css("opacity","1");
 		
     }).bind("mouseout",function(){
 		$(this).css("opacity","0.4");
-        $('#bolg').css("opacity","0");
+        $('#blog').css("opacity","0");
 	})
 
 });

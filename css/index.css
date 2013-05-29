@@ -7,8 +7,8 @@ body{
 
 div.menu{
 
-	padding-top: 8%;
-
+	padding-top: 11%;
+	
 }
 
 li{
@@ -18,13 +18,14 @@ li{
 li.menu-li{
 	display: inline-block;
 	margin-top:50px;
-	margin-right:35px;
+	margin-right:48px;
+	margin-left:-27px;
 }
 
 img.aboutUs{
 	height: 38.5px;
 	opacity: 0.4;
-	
+	margin-left:-30px;
 }
 
 img.addFavorite{
@@ -33,7 +34,7 @@ img.addFavorite{
 	
 }
 
-img.bolg{
+img.blog{
 	height: 38px;
 	opacity: 0.4;
 	
@@ -42,6 +43,7 @@ img.bolg{
 img.contactUs{
          height: 31px;
          opacity:0.4;
+		 margin-left:-10px;
 }
 
 img.bg-logo{
@@ -51,7 +53,8 @@ img.bg-logo{
 
 img.login{
 	height: 93.5px;
-        float:left;
+    float:left;
+	opacity: 0.4;
 }
 
 
@@ -61,4 +64,12 @@ p{
 	margin-top:20px;
 	clear:both;
 	opacity: 0;
+}
+
+p#contactUs{
+	margin-left:-10px;
+}
+
+p#aboutUs{
+	margin-left:-30px;
 }
