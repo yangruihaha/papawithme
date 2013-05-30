@@ -6,7 +6,7 @@ $(document).ready(function() {
 		
     }).bind("mouseout",function(){
 		$(this).fadeTo('fast',0.4);
-        $('#login').fadeTo('fast',0.4);
+        $('#login').fadeTo('fast',0);
 	})
 
 });
@@ -18,7 +18,7 @@ $(document).ready(function() {
 		
     }).bind("mouseout",function(){
 		$(this).fadeTo('fast',0.4);
-        $('#addFavorite').fadeTo('fast',0.4);
+        $('#addFavorite').fadeTo('fast',0);
 	})
 
 });
@@ -30,7 +30,7 @@ $(document).ready(function() {
 		
     }).bind("mouseout",function(){
 		$(this).fadeTo('fast',0.4);
-        $('#blog').fadeTo('fast',0.4);
+        $('#blog').fadeTo('fast',0);
 	})
 
 });
@@ -42,7 +42,7 @@ $(document).ready(function() {
 		
     }).bind("mouseout",function(){
 		$(this).fadeTo('fast',0.4);
-        $('#contactUs').fadeTo('fast',0.4);
+        $('#contactUs').fadeTo('fast',0);
 	})
 
 });
@@ -54,7 +54,7 @@ $(document).ready(function() {
 		
     }).bind("mouseout",function(){
 		$(this).fadeTo('fast',0.4);
-        $('#aboutUs').fadeTo('fast',0.4);
+        $('#aboutUs').fadeTo('fast',0);
 	})
 
 });
