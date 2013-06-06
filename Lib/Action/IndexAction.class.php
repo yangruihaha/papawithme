@@ -4,4 +4,10 @@ class IndexAction extends Action {
     public function index(){
 					$this->display();
     }
+	
+	public function login(){
+		$User = M('User'); 
+		$rs = $User->select();
+		print_r($rs);
+	}
 }
