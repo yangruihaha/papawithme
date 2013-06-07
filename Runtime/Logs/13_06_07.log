@@ -1,0 +1,1605 @@
+[ 2013-06-07T14:52:07+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000433s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023790s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000358s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000277s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000280s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001427s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2013-06-07T14:52:17+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.027314s ]
+INFO: [ route_check ] --END-- [ RunTime:0.027443s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+
+[ 2013-06-07T14:52:58+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+
+[ 2013-06-07T15:31:53+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000673s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+
+[ 2013-06-07T15:31:53+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000295s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+
+[ 2013-06-07T15:31:54+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+
+[ 2013-06-07T15:32:04+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+
+[ 2013-06-07T15:32:18+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+
+[ 2013-06-07T15:32:19+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000644s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+
+[ 2013-06-07T15:32:19+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+
+[ 2013-06-07T15:32:24+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000652s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+
+[ 2013-06-07T15:33:30+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000713s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+
+[ 2013-06-07T15:33:31+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000644s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+
+[ 2013-06-07T15:37:47+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:37:48+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:38:25+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:38:34+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:40:57+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen() expects at least 2 parameters, 1 given /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:40:58+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000642s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen() expects at least 2 parameters, 1 given /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:40:58+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen() expects at least 2 parameters, 1 given /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:43:06+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] feof() expects parameter 1 to be resource, boolean given /var/www/papawithme/Lib/Action/InstallAction.class.php 第 8 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /var/www/papawithme/Lib/Action/InstallAction.class.php 第 11 行.
+
+[ 2013-06-07T15:43:07+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] feof() expects parameter 1 to be resource, boolean given /var/www/papawithme/Lib/Action/InstallAction.class.php 第 8 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /var/www/papawithme/Lib/Action/InstallAction.class.php 第 11 行.
+
+[ 2013-06-07T15:46:24+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:46:25+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:47:50+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000646s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:47:51+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:47:51+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:47:51+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000642s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:47:52+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+NOTIC: [2] fopen(__PUBLIC__/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:48:29+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000379s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [2] fopen(/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:48:30+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000644s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+NOTIC: [2] fopen(/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:48:31+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+NOTIC: [2] fopen(/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:48:31+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2] fopen(/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:48:31+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000309s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+NOTIC: [2] fopen(/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:49:33+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000322s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+NOTIC: [2] fopen(../../Public/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:49:33+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2] fopen(../../Public/sql/think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:50:30+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000651s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2] fopen(think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:50:31+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000648s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2] fopen(think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:50:32+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000671s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2] fopen(think_table_initial.sql): failed to open stream: No such file or directory /var/www/papawithme/Lib/Action/InstallAction.class.php 第 6 行.
+
+[ 2013-06-07T15:56:15+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000651s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) /var/www/papawithme/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2013-06-07T15:57:24+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000118s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+
+[ 2013-06-07T15:58:07+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+				 [ RunTime:0.048222s ]
+
+[ 2013-06-07T15:58:07+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+				 [ RunTime:0.000094s ]
+
+[ 2013-06-07T15:58:08+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000619s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+				 [ RunTime:0.000180s ]
+
+[ 2013-06-07T15:58:40+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+
+[ 2013-06-07T15:59:04+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000627s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000100s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+
+[ 2013-06-07T15:59:04+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+
+[ 2013-06-07T16:01:03+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000677s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000206s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VA' at line 12
+ [ SQL语句 ] : 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+
+[ 2013-06-07T16:03:48+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000176s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VA' at line 12
+ [ SQL语句 ] : 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+
+[ 2013-06-07T16:04:24+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000674s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  )
+				 [ RunTime:0.112434s ]
+
+[ 2013-06-07T16:05:11+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  )
+				 [ RunTime:0.000276s ]
+ERR: 1050:Table 'think_user' already exists
+ [ SQL语句 ] : 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  )
+				
+
+[ 2013-06-07T16:05:44+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: 
+
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000080s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VA' at line 12
+ [ SQL语句 ] : 
+
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+
+[ 2013-06-07T16:06:05+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000066s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+
+[ 2013-06-07T16:06:28+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000627s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000131s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+
+[ 2013-06-07T16:08:35+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000122s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000635s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000185s ]
+
+[ 2013-06-07T16:09:46+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000119s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000602s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000068s ]
+
+[ 2013-06-07T16:10:16+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000049s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000374s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000070s ]
+
+[ 2013-06-07T16:12:36+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000636s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+ERR: Action:header您所请求的方法不存在！
+
+[ 2013-06-07T16:12:50+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000098s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000613s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000062s ]
+
+[ 2013-06-07T16:17:44+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000094s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000587s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000108s ]
+
+[ 2013-06-07T16:18:45+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000626s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					
+				 [ RunTime:0.000098s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000455s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000076s ]
+
+[ 2013-06-07T16:18:46+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					
+				 [ RunTime:0.000088s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000577s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000066s ]
+
+[ 2013-06-07T16:18:46+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000412s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					
+				 [ RunTime:0.000077s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000359s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000061s ]
+
+[ 2013-06-07T16:18:46+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000303s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					
+				 [ RunTime:0.000066s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000351s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000060s ]
+
+[ 2013-06-07T16:18:58+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+		
+				 [ RunTime:0.123421s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000366s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000101s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user` 
+
+[ 2013-06-07T16:18:59+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+		
+				 [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000460s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000126s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user` 
+
+[ 2013-06-07T16:19:15+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000105s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000433s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000071s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user` 
+
+[ 2013-06-07T16:19:16+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000122s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000465s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000158s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user` 
+
+[ 2013-06-07T16:19:24+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000043s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000280s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000084s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user` 
+
+[ 2013-06-07T16:19:25+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				 [ RunTime:0.000116s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INC' at line 3
+ [ SQL语句 ] : 
+					drop table if exists `papawithme`.`think_user`;
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  );
+					
+					INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');				
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000558s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000153s ]
+ERR: 1146:Table 'papawithme.think_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user` 
+
+[ 2013-06-07T16:19:47+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  )			
+				 [ RunTime:0.094076s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000772s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000256s ]
+
+[ 2013-06-07T16:19:47+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000619s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  )			
+				 [ RunTime:0.000175s ]
+ERR: 1050:Table 'think_user' already exists
+ [ SQL语句 ] : 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  )			
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000595s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000054s ]
+
+[ 2013-06-07T16:19:47+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000619s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  )			
+				 [ RunTime:0.000210s ]
+ERR: 1050:Table 'think_user' already exists
+ [ SQL语句 ] : 
+
+					CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  )			
+				
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000596s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000079s ]
+
+[ 2013-06-07T16:22:46+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+
+[ 2013-06-07T16:23:10+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: drop table if exists `papawithme`.`think_user`; [ RunTime:0.044208s ]
+SQL: CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  ); [ RunTime:0.098862s ]
+SQL: INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me'); [ RunTime:0.034372s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.000720s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000243s ]
+
