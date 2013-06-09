@@ -1,0 +1,79 @@
+[ 2013-06-10T07:12:11+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004235s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001829s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002010s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016411s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001116s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001533s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000910s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005624s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2013-06-10T07:12:34+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.020357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020449s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Install
+
+[ 2013-06-10T07:16:42+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000902s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001057s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009208s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000685s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000728s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000581s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003289s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001632s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2013-06-10T07:16:48+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) D:\wamp\www\papawithme\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2013-06-10T07:23:37+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000895s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001033s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008342s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000688s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003808s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001140s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001270s ]
+
