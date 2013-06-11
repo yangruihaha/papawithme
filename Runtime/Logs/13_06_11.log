@@ -1,0 +1,1940 @@
+[ 2013-06-11T11:14:53+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002859s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.014643s ]
+INFO: [ view_template ] --END-- [ RunTime:0.014797s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035237s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.007327s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.008874s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.014111s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.007883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038601s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.010962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011093s ]
+
+[ 2013-06-11T11:14:54+08:00 ] 127.0.0.1 /papawithme/index.php/Install
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.016052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.016276s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: drop table if exists `papawithme`.`think_user`; [ RunTime:0.058019s ]
+SQL: CREATE  TABLE `papawithme`.`think_user` (
+					  `user_id` INT NOT NULL AUTO_INCREMENT ,
+					  `user_name` VARCHAR(45) NOT NULL ,
+					  `user_psd` VARCHAR(45) NOT NULL ,
+					  `user_email` VARCHAR(145) NOT NULL ,
+					  PRIMARY KEY (`user_id`) ,
+					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
+					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
+					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
+					  ); [ RunTime:0.024565s ]
+SQL: INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me'); [ RunTime:0.024705s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003543s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000332s ]
+
+[ 2013-06-11T11:15:17+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000537s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010373s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000571s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000562s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000362s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002512s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2013-06-11T11:15:17+08:00 ] 127.0.0.1 /papawithme/index.php/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001229s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:17+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002515s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002734s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:17+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/jquery-1.10.0.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001295s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002416s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:17+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/Blog.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:17+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/bg/logo.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:17+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/login.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001685s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002195s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:17+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AddFavorite.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002535s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004536s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:17+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AboutUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:17+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/ContactUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002432s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:34+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001292s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010505s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000657s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000786s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000536s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003284s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2013-06-11T11:15:34+08:00 ] 127.0.0.1 /papawithme/index.php/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001058s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:34+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000913s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:34+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/jquery-1.10.0.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:34+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AddFavorite.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002193s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:34+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/ContactUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:34+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/login.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:34+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/bg/logo.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:34+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AboutUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:15:34+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/Blog.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:18:14+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_template ] --START--
+ERR: 模板不存在[D:/wamp/www/papawithme/Tpl/Index/Index.html]
+
+[ 2013-06-11T11:18:19+08:00 ] 127.0.0.1 /papawithme/index.php/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000907s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001091s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000760s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000728s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000599s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003338s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001059s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2013-06-11T11:18:19+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+ERR: 非法操作:Public
+
+[ 2013-06-11T11:18:19+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Public/jQuery/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001369s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005232s ]
+ERR: 非法操作:Public
+
+[ 2013-06-11T11:18:19+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Public/jQuery/jquery-1.10.0.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001338s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+ERR: 非法操作:Public
+
+[ 2013-06-11T11:18:19+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Public/resources/menu/AddFavorite.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+ERR: 非法操作:Public
+
+[ 2013-06-11T11:18:19+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Public/resources/menu/login.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+ERR: 非法操作:Public
+
+[ 2013-06-11T11:18:19+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Public/resources/menu/ContactUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+ERR: 非法操作:Public
+
+[ 2013-06-11T11:18:19+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Public/resources/menu/AboutUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001412s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+ERR: 非法操作:Public
+
+[ 2013-06-11T11:18:19+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Public/resources/menu/Blog.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+ERR: 非法操作:Public
+
+[ 2013-06-11T11:18:19+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Public/resources/bg/logo.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 非法操作:Public
+
+[ 2013-06-11T11:18:37+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001143s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003842s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000400s ]
+
+[ 2013-06-11T11:27:16+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000823s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009880s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000781s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000690s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000524s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003457s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001254s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2013-06-11T11:28:11+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000920s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001086s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009970s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000672s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000653s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000468s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002928s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001100s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2013-06-11T11:29:02+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000710s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000877s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009689s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000582s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000599s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000429s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002872s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001039s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2013-06-11T11:39:53+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000853s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001033s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010016s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000693s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000668s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000500s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003037s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2013-06-11T11:40:04+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000999s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001156s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010714s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000723s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000860s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000491s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003222s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2013-06-11T11:40:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public//css/index.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001088s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/jquery-1.10.0.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AddFavorite.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/bg/logo.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/Blog.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000905s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/login.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AboutUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/ContactUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:10+08:00 ] 127.0.0.1 /papawithme/index.php/Public//css/index.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:10+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/jquery-1.10.0.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:10+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:10+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AddFavorite.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000892s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:10+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/Blog.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.009968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010101s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:10+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/login.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:10+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/bg/logo.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:10+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/ContactUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.013633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013765s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003044s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:10+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AboutUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:40:58+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000827s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010881s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000639s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000647s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000482s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003024s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000943s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2013-06-11T11:41:04+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000908s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011029s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000684s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000653s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000479s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003164s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000978s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2013-06-11T11:41:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:41:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/jquery-1.10.0.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000960s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:41:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:41:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/bg/logo.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:41:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/Blog.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001015s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:41:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AboutUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:41:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AddFavorite.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:41:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/login.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:41:04+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/ContactUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001361s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000861s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011359s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000844s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000746s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000494s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003617s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001258s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/localhost/papawithme/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001106s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+ERR: 无法加载模块:localhost
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/localhost/papawithme/Public/jQuery/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+ERR: 无法加载模块:localhost
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/localhost/papawithme/Public/jQuery/jquery-1.10.0.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+ERR: 无法加载模块:localhost
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/login.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AddFavorite.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/ContactUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AboutUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001100s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/Blog.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/bg/logo.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000977s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001137s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011145s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000859s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000697s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000491s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003442s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/localhost/papawithme/Public/jQuery/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+ERR: 无法加载模块:localhost
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/localhost/papawithme/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+ERR: 无法加载模块:localhost
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/localhost/papawithme/Public/jQuery/jquery-1.10.0.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001247s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+ERR: 无法加载模块:localhost
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/ContactUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AboutUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AddFavorite.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/login.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/Blog.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000972s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:43:52+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/bg/logo.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:46:22+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000857s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001025s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010391s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000693s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000815s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000516s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003215s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2013-06-11T11:46:22+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AboutUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:46:22+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/login.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:46:22+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/ContactUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001067s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:46:22+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/Blog.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:46:22+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AddFavorite.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:46:22+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/bg/logo.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:46:27+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000831s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011423s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000778s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000783s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000515s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003390s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2013-06-11T11:48:38+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001019s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001170s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011284s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000664s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000755s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000667s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003317s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2013-06-11T11:49:28+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000847s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000999s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010045s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000643s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000638s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000489s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002955s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2013-06-11T11:49:29+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000603s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000765s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009978s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000577s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001805s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000475s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003986s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2013-06-11T11:49:30+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000893s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010216s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000752s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000665s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000499s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003062s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000876s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2013-06-11T11:49:42+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000853s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009859s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000557s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000633s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000438s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002770s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001182s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2013-06-11T11:50:34+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+NOTIC: [8] Use of undefined constant PUBLIC_PATH - assumed 'PUBLIC_PATH' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000613s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010414s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000568s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000748s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000415s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003356s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001058s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2013-06-11T11:50:54+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000904s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010121s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001120s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000707s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000592s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003620s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001377s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2013-06-11T11:50:55+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000714s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011866s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000597s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000749s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000447s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003071s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000800s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2013-06-11T11:51:14+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000962s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001120s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010812s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000637s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000735s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000518s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003055s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000929s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2013-06-11T11:51:16+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000793s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011045s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000606s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000627s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000406s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002731s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2013-06-11T11:51:17+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000595s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009471s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000694s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000613s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000480s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003200s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000852s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2013-06-11T11:51:22+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000654s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010014s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000811s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000605s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000414s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003170s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2013-06-11T11:51:22+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:51:22+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/jquery-1.10.0.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:51:22+08:00 ] 127.0.0.1 /papawithme/index.php/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008144s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:51:23+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001099s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001261s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011051s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000703s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000896s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000694s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003710s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2013-06-11T11:51:23+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:51:23+08:00 ] 127.0.0.1 /papawithme/index.php/Public/jQuery/jquery-1.10.0.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002192s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:51:23+08:00 ] 127.0.0.1 /papawithme/index.php/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:53:09+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\wamp\www\papawithme\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001103s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001255s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013547s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000932s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000909s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000726s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005072s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000998s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002465s ]
+
+[ 2013-06-11T11:53:25+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001019s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001281s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011098s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000864s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000739s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000580s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003628s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001103s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2013-06-11T11:53:45+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001179s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001345s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010477s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000679s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000652s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000498s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003130s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2013-06-11T11:54:00+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000893s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010256s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000674s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000775s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000797s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003687s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2013-06-11T11:54:01+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000585s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000951s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010765s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000712s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000576s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000417s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002843s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2013-06-11T11:54:02+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000894s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010173s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000887s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000721s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000526s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003768s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000956s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2013-06-11T11:54:14+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000579s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000745s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009502s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000611s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000576s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000530s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000824s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2013-06-11T11:54:57+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001134s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001485s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010036s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000652s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000662s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000487s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003163s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2013-06-11T11:54:57+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000563s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010066s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000691s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000767s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000540s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003478s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2013-06-11T11:54:57+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000577s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009988s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000604s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000608s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000387s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002667s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2013-06-11T11:54:57+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000558s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009557s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000579s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000555s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000404s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002760s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2013-06-11T11:56:01+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000622s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009725s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000595s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000587s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000434s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002877s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2013-06-11T11:56:02+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000636s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010192s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000584s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000566s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000454s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002717s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2013-06-11T11:56:33+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000896s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001065s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009735s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000633s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000659s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000495s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002952s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000923s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2013-06-11T11:56:55+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000855s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010539s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000697s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000802s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000601s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003372s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000938s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2013-06-11T11:56:56+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000728s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000886s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010180s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000594s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000833s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000427s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002944s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000781s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2013-06-11T11:56:56+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000659s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010638s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000584s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000578s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000437s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002751s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2013-06-11T11:58:10+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000856s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010214s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000772s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000756s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000554s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003238s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000879s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2013-06-11T11:58:26+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001534s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001705s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010712s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000878s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000718s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000700s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003795s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001333s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2013-06-11T11:58:28+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000717s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011049s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000594s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000603s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000398s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002642s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000857s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2013-06-11T11:58:31+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000560s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009191s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000564s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000580s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000383s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002576s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000789s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2013-06-11T11:58:31+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/ContactUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:58:31+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AddFavorite.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:58:31+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/bg/logo.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:58:31+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/login.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:58:31+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/Blog.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002908s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:58:31+08:00 ] 127.0.0.1 /papawithme/index.php/Public/resources/menu/AboutUs.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002399s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+ERR: 无法加载模块:Public
+
+[ 2013-06-11T11:59:05+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001073s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001228s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011195s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000734s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000897s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000649s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003482s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001039s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2013-06-11T11:59:06+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001009s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000567s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010244s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000667s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000688s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000509s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003112s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2013-06-11T11:59:37+08:00 ] 127.0.0.1 /papawithme/index.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000580s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010711s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000623s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000619s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000550s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003087s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001233s ]
+
