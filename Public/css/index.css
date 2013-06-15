@@ -73,3 +73,7 @@ p#contactUs{
 p#aboutUs{
 	margin-left:-30px;
 }
+
+#login_box_wrapper{
+	display:none;
+}

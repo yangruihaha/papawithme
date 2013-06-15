@@ -4,6 +4,14 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="<?php echo ($public); ?>/css/index.css" />
 <script type="text/javascript" src="<?php echo ($public); ?>/jQuery/jquery-1.10.0.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="<?php echo ($public); ?>/jQuery/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="<?php echo ($public); ?>/jQuery/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="<?php echo ($public); ?>/jQuery/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
 <script type="text/javascript" src="<?php echo ($public); ?>/jQuery/index.js"></script>
 <title>Papa With Me!</title>
 </head>
@@ -26,7 +34,7 @@
 				</li>
 				<li class="menu-li">
                 	<ul>
-						<li><img src="<?php echo ($public); ?>/resources/menu/login.png" class="login" /></li>
+						<li><a id="fancy_login" href="#login_box_wrapper" title="Welcome! My PaPartner"><img src="<?php echo ($public); ?>/resources/menu/login.png" class="login" /></a></li>
                         <li><p id="login">Login</p></li>
                     </ul>
 				</li>
@@ -43,6 +51,20 @@
                     </ul>
 				</li>
 			</ul>
+		</div>
+        
+        <!--Register & Login FancyBox-->
+		<div id="login_box_wrapper">
+			<div id="login_box">
+				<div class="login_box_header">
+					<h3>Login</h3>
+				</div>
+				<form class="login_form" method="post" action="#">
+					email   :<input name="user_id" id="user_id"><br />
+                    password:<input name="user_psd" id="user_psd"><br />
+					<input type="submit" value="login" class="login_form_submit">
+				</form>
+			</div>
 		</div>
 </body>
 </html>
