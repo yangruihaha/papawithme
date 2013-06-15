@@ -59,7 +59,7 @@
 				<div class="login_box_header">
 					<h3>Login</h3>
 				</div>
-				<form class="login_form" method="post" action="#">
+				<form class="login_form" method="post" action="<?php echo ($appdir); ?>/index.php/Index/Login">
 					email   :<input name="user_id" id="user_id"><br />
                     password:<input name="user_psd" id="user_psd"><br />
 					<input type="submit" value="login" class="login_form_submit">
