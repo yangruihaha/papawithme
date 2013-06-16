@@ -6,9 +6,7 @@ body{
 }
 
 div.menu{
-
-	padding-top: 11%;
-	
+	padding-top: 11%;	
 }
 
 li{
@@ -20,6 +18,12 @@ li.menu-li{
 	margin-top:50px;
 	margin-right:48px;
 	margin-left:-27px;
+}
+
+li.intro-menu-li{
+	display: inline-block;
+	margin-top:-90px;
+        margin-left:-45px;
 }
 
 img.aboutUs{
@@ -43,7 +47,7 @@ img.blog{
 img.contactUs{
          height: 31px;
          opacity:0.4;
-		 margin-left:-10px;
+	 margin-left:-10px;
 }
 
 img.bg-logo{
@@ -53,8 +57,12 @@ img.bg-logo{
 
 img.login{
 	height: 93.5px;
-    float:left;
+        float:left;
 	opacity: 0.4;
+}
+
+img.intro{
+	height: 500px;
 }
 
 
