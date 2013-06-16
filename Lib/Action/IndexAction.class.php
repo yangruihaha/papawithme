@@ -3,6 +3,7 @@
 class IndexAction extends Action {
 	
     public function index(){
+		$this->assign('appdir','http://localhost/papawithme');
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 		$this->display();
     }
@@ -15,6 +16,7 @@ class IndexAction extends Action {
 	public function login(){
 		$User = M('User'); 
 		$rs = $User->select();
-		print_r($rs);
+		//print_r($rs);
+		print_r($this->_param('user_id'));
 	}
 }

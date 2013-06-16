@@ -13,6 +13,15 @@
 <script type="text/javascript" src="{$public}/jQuery/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 <script type="text/javascript" src="{$public}/jQuery/index.js"></script>
+
+<script type="text/javascript" src="{$public}/jQuery/jquery.validate.js"></script>
+
+<script type="text/javascript">
+		$(document).ready(function() {
+            $("#login_form").validate();
+        });
+</script>
+
 <title>Papa With Me!</title>
 </head>
 
@@ -59,9 +68,9 @@
 				<div class="login_box_header">
 					<h3>Login</h3>
 				</div>
-				<form class="login_form" method="post" action="#">
-					email   :<input name="user_id" id="user_id"><br />
-                    password:<input name="user_psd" id="user_psd"><br />
+				<form id="login_form" method="post" action="{$appdir}/index.php/Index/Login">
+					email   :<input name="user_id" id="user_id" class="required email"><br />
+                    password:<input name="user_psd" id="user_psd" class="required"><br />
 					<input type="submit" value="login" class="login_form_submit">
 				</form>
 			</div>
