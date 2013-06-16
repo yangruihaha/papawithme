@@ -14,74 +14,12 @@
 
 <script type="text/javascript" src="{$public}/jQuery/index.js"></script>
 
+<script type="text/javascript" src="{$public}/jQuery/jquery.validate.js"></script>
+
 <script type="text/javascript">
-		function is_empty(field,alerttxt)
-		{
-			with (field)
-		  	{
-		  		if (value==null||value=="")
-		  			{alert(alerttxt);return true}
-		  		else {return false}
-		  	}
-		}
-		function check_username(field,alerttxt)
-		{
-			with (field)
-		  	{
-		  		if (value.length<5 || value.length>16)
-		  			{alert(alerttxt);return false}
-		  		else {return true}
-		  	}
-		}
-		function check_email(field,alerttxt)
-		{
-			with (field)
-		  	{
-				if (value.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) == -1)
-					{alert(alerttxt);return false}
-				else {return true}
-		  	}
-		}
-		function check_password(field,field1,alerttxt)
-		{
-		  	if (field.value != field1.value)
-		  		{alert(alerttxt);return false}
-		  	else {return true}
-		}
-		function register_form(thisform)
-		{
-			with (thisform)
-		  	{
-		  		if (is_empty(username,"用户名不能为空")==true)
-		    		{username.focus();return false}
-		  		if (check_username(username,"用户名必须在5到16位字符之间") == false)
-		  			{username.focus();return false}
-		  		if (is_empty(email,"邮箱地址不能为空")==true)
-		  			{email.focus();return false}
-		  		if (check_email(email,"请输入正确的邮箱地址")==false)
-		  			{email.focus();return false}
-		  		if (is_empty(password,"密码不能为空")==true)
-	    			{password.focus();return false}
-		  		if (is_empty(con_password,"密码确认不能为空")==true)
-		  			{con_password.focus();return false}
-	  			if (check_password(password,con_password,"两次密码输入不一致") == false)
-	  				{con_password.focus();return false}
-	  			return true;
-		  	}
-		}
-		function login_form(thisform)
-		{
-			with(thisform)
-			{
-				if(is_empty(user_id,"邮箱地址不能为空")==true)
-					{user_id.focus();return false;}
-				if(check_email(user_id,"请输入正确的邮箱地址")==false)
-					{user_id.focus();return false;}
-				if(is_empty(user_psd,"密码不能为空")==true)
-					{user_psd.focus();return false;}
-				return true;
-			}
-		}
+		$(document).ready(function() {
+            $("#login_form").validate();
+        });
 </script>
 
 <title>Papa With Me!</title>
@@ -130,9 +68,9 @@
 				<div class="login_box_header">
 					<h3>Login</h3>
 				</div>
-				<form class="login_form" method="post" action="{$appdir}/index.php/Index/Login" onsubmit="return login_form(this)">
-					email   :<input name="user_id" id="user_id"><br />
-                    password:<input name="user_psd" id="user_psd"><br />
+				<form id="login_form" method="post" action="{$appdir}/index.php/Index/Login">
+					email   :<input name="user_id" id="user_id" class="required email"><br />
+                    password:<input name="user_psd" id="user_psd" class="required"><br />
 					<input type="submit" value="login" class="login_form_submit">
 				</form>
 			</div>
