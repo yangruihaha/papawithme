@@ -55,7 +55,7 @@
 				</li>
 				<li class="menu-li">
                 	<ul>
-						<li><img src="<?php echo ($public); ?>/resources/menu/AboutUs.png" class="aboutUs" /></li>
+						<li><a href="__URL__/intro"><img src="<?php echo ($public); ?>/resources/menu/AboutUs.png" class="aboutUs" /></a></li>
                         <li><p id="aboutUs">About Us</p></li>
                     </ul>
 				</li>
