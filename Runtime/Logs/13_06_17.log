@@ -1,0 +1,20 @@
+[ 2013-06-17T19:11:28+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.026648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041892s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.011042s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011294s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.117234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117391s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003643s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004513s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002922s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015290s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003502s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003586s ]
+
