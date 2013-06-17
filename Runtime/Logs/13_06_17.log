@@ -18,3 +18,46 @@ INFO: [ view_end ] --START--
 INFO: Run ShowPageTrace Behavior [ RunTime:0.003502s ]
 INFO: [ view_end ] --END-- [ RunTime:0.003586s ]
 
+[ 2013-06-17T21:50:31+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000843s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000959s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025667s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000709s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000945s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000577s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003326s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2013-06-17T21:50:34+08:00 ] 127.0.0.1 /papawithme/index.php/Index/intro
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.037340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.037698s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001892s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002289s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031879s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001542s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001835s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001645s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009579s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002542s ]
+
