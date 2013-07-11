@@ -15,11 +15,29 @@
 <script type="text/javascript" src="<?php echo ($public); ?>/jQuery/index.js"></script>
 
 <script type="text/javascript" src="<?php echo ($public); ?>/jQuery/jquery.validate.js"></script>
+<script type="text/javascript" src="<?php echo ($public); ?>/jQuery/jquery.form.min.js"></script>
 
 <script type="text/javascript">
 		$(document).ready(function() {
             $("#login_form").validate();
         });
+		
+		$('#login_form').ajaxForm({
+			beforeSubmit:  checkForm,  // 表单提交执行前检测
+			success:       complete,  // 表单提交后执行函数
+			dataType: 'json'
+		});
+		function checkForm(){
+			 $("#login_form").validate();
+		}
+		function complete(data){
+			if(data.status==1){
+				$('#res_text').html(data.info).show();
+			}else{
+				$('#res_text').html(data.info).show();
+			}
+		}
+				
 </script>
 
 <title>Papa With Me!</title>
@@ -69,8 +87,9 @@
 					<h3>Login</h3>
 				</div>
 				<form id="login_form" method="post" action="<?php echo ($appdir); ?>/index.php/Index/Login">
-					email   :<input name="user_id" id="user_id" class="required email"><br />
+					email   :<input name="user_email" id="user_email" class="required email"><br />
                     password:<input name="user_psd" id="user_psd" class="required"><br />
+                    <div id="res_text" style="display:none;"></div>
 					<input type="submit" value="login" class="login_form_submit">
 				</form>
 			</div>

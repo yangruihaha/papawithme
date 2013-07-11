@@ -1,5 +1,4 @@
 <?php
-// 本类由系统自动生成，仅供测试用途
 class IndexAction extends Action {
 	
     public function index(){
@@ -15,8 +14,16 @@ class IndexAction extends Action {
 	
 	public function login(){
 		$User = M('User'); 
-		$rs = $User->select();
+		$condition['user_email'] = $this->_param('user_email');
+		$condition['user_psd'] = $this->_param('user_psd');
+		$rs = $User->where($condition)->select();
 		//print_r($rs);
-		print_r($this->_param('user_id'));
+		//print_r($this->_param('user_id'));
+		if($rs){
+			$this->ajaxReturn(0,"ssss",1);
+		}
+		else{
+			$this->ajaxReturn(0,"ssss",1);
+		}
 	}
 }
