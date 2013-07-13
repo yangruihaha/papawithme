@@ -3,10 +3,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="<?php echo ($public); ?>/css/index.css" />
-<script type="text/javascript" src="<?php echo ($public); ?>/jQuery/jquery-1.10.0.js"></script>
-
-<!-- Add mousewheel plugin (this is optional) -->
-<script type="text/javascript" src="<?php echo ($public); ?>/jQuery/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="<?php echo ($public); ?>/jQuery/jquery-1.10.2.min.js"></script>
 
 <!-- Add fancyBox -->
 <link rel="stylesheet" href="<?php echo ($public); ?>/jQuery/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
@@ -28,11 +25,12 @@
 			dataType: 'json'
 		});
 		function checkForm(){
-			 $("#login_form").validate();
+
 		}
 		function complete(data){
 			if(data.status==1){
 				$('#res_text').html(data.info).show();
+				window.location.href='<?php echo ($appdir); ?>/index.php/Home';
 			}else{
 				$('#res_text').html(data.info).show();
 			}
@@ -88,7 +86,7 @@
 				</div>
 				<form id="login_form" method="post" action="<?php echo ($appdir); ?>/index.php/Index/Login">
 					email   :<input name="user_email" id="user_email" class="required email"><br />
-                    password:<input name="user_psd" id="user_psd" class="required"><br />
+                    password:<input name="user_psd" id="user_psd" type="password" class="required"><br />
                     <div id="res_text" style="display:none;"></div>
 					<input type="submit" value="login" class="login_form_submit">
 				</form>

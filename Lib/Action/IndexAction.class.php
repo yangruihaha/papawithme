@@ -20,10 +20,12 @@ class IndexAction extends Action {
 		//print_r($rs);
 		//print_r($this->_param('user_id'));
 		if($rs){
-			$this->ajaxReturn(0,"ssss",1);
+			session('id', $rs[0]['user_id']);
+			session('name', $rs[0]['user_name']);
+			$this->ajaxReturn(0,"Login Success!",1);
 		}
 		else{
-			$this->ajaxReturn(0,"ssss",1);
+			$this->ajaxReturn(0,"Incorrect username or password.",0);
 		}
 	}
 }

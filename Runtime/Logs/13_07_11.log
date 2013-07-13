@@ -846,3 +846,35 @@ NOTIC: 建议使用I方法替代_param
 NOTIC: 建议使用I方法替代_param
 SQL: SELECT * FROM `think_user` WHERE ( `user_email` = 'root@papawith.me' ) AND ( `user_psd` = 'papawithme~' )  [ RunTime:0.000290s ]
 
+[ 2013-07-11T21:52:48+08:00 ] 127.0.0.1 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001374s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001538s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010022s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000614s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000630s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000490s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002712s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2013-07-11T21:52:56+08:00 ] 127.0.0.1 /papawithme/index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002411s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `think_user` WHERE ( `user_email` = 'root@papawith.me' ) AND ( `user_psd` = '1231' )  [ RunTime:0.000369s ]
+
