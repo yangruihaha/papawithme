@@ -10,6 +10,9 @@ body{
 }
 </style>
 
+<script type="text/javascript" src="<?php echo ($public); ?>/jQuery/Chart.min.js"></script>
+<script type="text/javascript" src="<?php echo ($public); ?>/bootstrap/js/bootstrap.min.js"></script>
+
 <title>Welcome to Papawithme!</title>
 </head>
 
@@ -46,33 +49,9 @@ body{
 													<li>
 														<a href=\"".$appdir."/index.php/Home/Logout\">登出</a>
 													</li>
-												</ul>	"; ?>
-								</li>
-								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">登录</a>
-									<ul class="dropdown-menu">
-										<li>
-											<form class="form-horizontal">
-											  <div class="control-group">
-												<label class="control-label" for="inputEmail" contenteditable="true">邮箱</label>
-												<div class="controls">
-												  <input id="inputEmail" placeholder="Email" type="text">
-												</div>
-											  </div>
-											  <div class="control-group">
-												<label class="control-label" for="inputPassword" contenteditable="true">密码</label>
-												<div class="controls">
-												  <input id="inputPassword" placeholder="Password" type="password">
-												</div>
-											  </div>
-											  <div class="control-group">
-												<div class="controls">
-												  <button type="submit" class="btn" contenteditable="true">登陆</button>
-												</div>
-											  </div>
-											</form>
-										</li>
-									</ul>
+												</ul>	"; else echo "	<li>
+													<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">登录</a>
+												</li>	"; ?>
 								</li>
 							</ul>
 						</div>
@@ -83,6 +62,73 @@ body{
 			</div>
 		</div>
 	</div>
+	
+	<div class="row-fluid">
+		<div class="span6">
+			<canvas id="canvas" height="500" width="500"></canvas>
+			<script>
+
+				var radarChartData = {
+				labels : ["Eating","Drinking","Sleeping","Designing","Coding","Partying","Running"],
+				datasets : [
+				{
+					fillColor : "rgba(220,220,220,0.5)",
+					strokeColor : "rgba(220,220,220,1)",
+					pointColor : "rgba(220,220,220,1)",
+					pointStrokeColor : "#fff",
+					data : [65,59,90,81,56,55,40]
+					},
+					{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,1)",
+					pointColor : "rgba(151,187,205,1)",
+					pointStrokeColor : "#fff",
+					data : [28,48,40,19,96,27,100]
+				}
+				]
+
+				}
+				var myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData,{scaleShowLabels : false, pointLabelFontSize : 10});
+			</script>			
+		</div>
+		<div class="span6">
+			<img class="img-polaroid"  src="<?php echo ($public); ?>/styles/user_sample.jpg" />
+		</div>
+	</div>
+	
+	<div class="row-fluid">
+		<div class="span6">
+			<img class="img-polaroid"  src="<?php echo ($public); ?>/styles/user_sample2.jpg" />
+		</div>
+		<div class="span6">
+			<canvas id="canvas1" height="500" width="500"></canvas>
+			<script>
+
+				var radarChartData = {
+				labels : ["Eating","Drinking","Sleeping","Designing","Coding","Partying","Running"],
+				datasets : [
+				{
+					fillColor : "rgba(220,220,220,0.5)",
+					strokeColor : "rgba(220,220,220,1)",
+					pointColor : "rgba(220,220,220,1)",
+					pointStrokeColor : "#fff",
+					data : [35,89,30,91,46,65,66]
+					},
+					{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,1)",
+					pointColor : "rgba(151,187,205,1)",
+					pointStrokeColor : "#fff",
+					data : [100,8,55,100,6,100,13]
+				}
+				]
+
+				}
+				var myRadar = new Chart(document.getElementById("canvas1").getContext("2d")).Radar(radarChartData,{scaleShowLabels : false, pointLabelFontSize : 10});
+			</script>			
+		</div>
+	</div>
+	
 </div>
 
 <script src="http://code.jquery.com/jquery.js"></script>
