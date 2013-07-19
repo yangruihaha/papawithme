@@ -14,4 +14,11 @@ class HomeAction extends Action {
 		session('id', 0);
 		redirect('index', 0, '页面跳转中...');
 	}
+	
+	public function login(){
+		$this->assign('appdir','http://localhost/papawithme');
+		$this->assign('public','http://localhost/papawithme/' . 'Public');
+		
+		$this->display();
+	}
 }

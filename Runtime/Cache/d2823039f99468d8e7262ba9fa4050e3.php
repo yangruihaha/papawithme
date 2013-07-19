@@ -50,7 +50,10 @@ body{
 														<a href=\"".$appdir."/index.php/Home/Logout\">登出</a>
 													</li>
 												</ul>	"; else echo "	<li>
-													<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">登录</a>
+													<a href=\"".$appdir."/index.php/Home/login\">登录</a>
+												</li>	
+												<li>
+													<a href=\"#\">注册</a>
 												</li>	"; ?>
 								</li>
 							</ul>
