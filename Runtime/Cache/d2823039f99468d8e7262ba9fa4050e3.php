@@ -67,6 +67,59 @@ body{
 	</div>
 	
 	<div class="row-fluid">
+		<div class="span2">
+		</div>
+		<div class="span6">
+			<div class="accordion" id="accordion2">
+			<div class="accordion-group">
+			<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+				周末， 我想约个人
+			</a>
+			</div>
+			<div id="collapseOne" class="accordion-body collapse">
+			<div class="accordion-inner">
+				看电影
+			</div>
+			</div>
+			</div>
+			<div class="accordion-group">
+			<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+				其实我想，拜师学艺
+			</a>
+			</div>
+			<div id="collapseTwo" class="accordion-body collapse">
+			<div class="accordion-inner">
+				编程，网站
+			</div>
+			<div class="accordion-inner">
+				产品& 交互
+			</div>
+			</div>
+			</div>
+			<div class="accordion-group">
+			<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+				找个时间， 聊聊学习
+			</a>
+			</div>
+			<div id="collapseThree" class="accordion-body collapse">
+			<div class="accordion-inner">
+				高数
+			</div>
+			<div class="accordion-inner">
+				C++
+			</div>
+			</div>
+			</div>
+			</div>
+		</div>
+		<div class="span4">
+		</div>
+	</div>
+	
+	<div class="row-fluid">
 		<div class="span6">
 			<canvas id="canvas" height="500" width="500"></canvas>
 			<script>
