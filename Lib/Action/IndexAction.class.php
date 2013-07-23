@@ -28,4 +28,21 @@ class IndexAction extends Action {
 			$this->ajaxReturn(0,"Incorrect username or password.",0);
 		}
 	}
+	
+	public function register(){
+		$User = M('User'); 
+		$condition['user_email'] = $this->_param('user_email');
+		$condition['user_psd'] = $this->_param('user_psd');
+		$rs = $User->where($condition)->select();
+		//print_r($rs);
+		//print_r($this->_param('user_id'));
+		if($rs){
+			session('id', $rs[0]['user_id']);
+			session('name', $rs[0]['user_name']);
+			$this->ajaxReturn(0,"Login Success!",1);
+		}
+		else{
+			$this->ajaxReturn(0,"Incorrect username or password.",0);
+		}
+	}
 }

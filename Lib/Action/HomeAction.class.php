@@ -21,4 +21,11 @@ class HomeAction extends Action {
 		
 		$this->display();
 	}
+	
+	public function register(){
+		$this->assign('appdir','http://localhost/papawithme');
+		$this->assign('public','http://localhost/papawithme/' . 'Public');
+		
+		$this->display();
+	}
 }

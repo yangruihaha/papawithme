@@ -96,7 +96,13 @@ body{
 			<div class="span2">
 			</div>
 			<div class="span6">
-				<form class="form-horizontal" id="login_form" method="post" action="<?php echo ($appdir); ?>/index.php/Index/Login">
+				<form class="form-horizontal" id="register_form" method="post" action="<?php echo ($appdir); ?>/index.php/Index/register">
+					<div class="control-group">
+						 <label class="control-label" for="inputName">用户名</label>
+						<div class="controls">
+							<input name="user_email" id="inputName" type="text" />
+						</div>
+					</div>
 					<div class="control-group">
 						 <label class="control-label" for="inputEmail">邮箱</label>
 						<div class="controls">
@@ -110,9 +116,15 @@ body{
 						</div>
 					</div>
 					<div class="control-group">
+						 <label class="control-label" for="inputPassword">重复密码</label>
+						<div class="controls">
+							<input name="user_psd" id="inputPassword" type="password" />
+						</div>
+					</div>
+					<div class="control-group">
 						<div class="controls">
 							<div id="res_text" style="display:none;"></div>
-							<button type="submit" class="btn">登陆</button>
+							<button type="submit" class="btn">注册</button>
 						</div>
 					</div>
 				</form>
