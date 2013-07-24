@@ -20,7 +20,6 @@ class IndexAction extends Action {
 		//print_r($rs);
 		//print_r($this->_param('user_id'));
 		if($rs){
-			session('id', $rs[0]['user_id']);
 			session('name', $rs[0]['user_name']);
 			$this->ajaxReturn(0,"Login Success!",1);
 		}
@@ -30,19 +29,17 @@ class IndexAction extends Action {
 	}
 	
 	public function register(){
-		$User = M('User'); 
-		$condition['user_email'] = $this->_param('user_email');
-		$condition['user_psd'] = $this->_param('user_psd');
-		$rs = $User->where($condition)->select();
-		//print_r($rs);
-		//print_r($this->_param('user_id'));
-		if($rs){
-			session('id', $rs[0]['user_id']);
-			session('name', $rs[0]['user_name']);
-			$this->ajaxReturn(0,"Login Success!",1);
+		$User = M('User');
+		$data['user_name'] = $this->_param('user_name');
+		$data['user_email'] = $this->_param('user_email');
+		$data['user_psd'] = $this->_param('user_psd');
+		
+		if($User->add($data)){
+			session('name', $data['user_name']);
+			$this->ajaxReturn(0,"Register Success!",1);
 		}
 		else{
-			$this->ajaxReturn(0,"Incorrect username or password.",0);
+			$this->ajaxReturn(0,"Register Failed!",0);
 		}
 	}
 }

@@ -1,0 +1,9 @@
+name
+motto
+head
+skill
+hobby
+now
+department
+birthday
+autobiography
