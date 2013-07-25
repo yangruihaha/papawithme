@@ -12,14 +12,9 @@ body{
 
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="<?php echo ($public); ?>/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php echo ($public); ?>/jQuery/jquery.validate.js"></script>
 <script type="text/javascript" src="<?php echo ($public); ?>/jQuery/jquery.form.min.js"></script>
 
-<script type="text/javascript">
-		$(document).ready(function() {
-            $("#login_form").validate();
-        });
-		
+<script type="text/javascript">	
 		$('#login_form').ajaxForm({
 			beforeSubmit:  checkForm,  // 表单提交执行前检测
 			success:       complete,  // 表单提交后执行函数
