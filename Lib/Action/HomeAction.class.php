@@ -33,4 +33,40 @@ class HomeAction extends Action {
 		$this->display();
 		$this->display('menu');
 	}
+	
+	public function profile(){
+		$this->assign('appdir','http://localhost/papawithme');
+		$this->assign('public','http://localhost/papawithme/' . 'Public');
+	
+		$UserProfile = M('UserProfile');
+		$condition['user_name'] = session('name');
+		$rs = $UserProfile->where($condition)->select();
+		
+		if($rs){
+			$this->assign('profile',$rs[0]);
+		}
+		else{
+			$this->assign('profile',null);
+		}
+		$this->display();
+		$this->display('menu');
+	}
+	
+	public function editProfile(){
+		$this->assign('appdir','http://localhost/papawithme');
+		$this->assign('public','http://localhost/papawithme/' . 'Public');
+	
+		$UserProfile = M('UserProfile');
+		$condition['user_name'] = session('name');
+		$rs = $UserProfile->where($condition)->select();
+		
+		if($rs){
+			$this->assign('profile',$rs[0]);
+		}
+		else{
+			$this->assign('profile',null);
+		}
+		$this->display();
+		$this->display('menu');
+	}
 }

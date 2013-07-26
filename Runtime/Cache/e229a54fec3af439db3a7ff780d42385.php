@@ -18,7 +18,7 @@
 							</ul>
 							<ul class="nav pull-right">
 								<li>
-									<a href="#">我</a>
+									<a href="<?php echo ($appdir); ?>/index.php/Home/profile">我</a>
 								</li>
 								<li class="divider-vertical">
 								</li>
