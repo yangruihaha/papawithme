@@ -17,13 +17,14 @@
 					  );");
 				$model->execute("INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');");
 				
+				$model->execute("drop table if exists `papawithme`.`think_user_profile`;");
 				$model->execute("
 					CREATE TABLE IF NOT EXISTS `think_user_profile` (
 					  `profile_id` bigint(20) NOT NULL AUTO_INCREMENT,
 					  `user_name` varchar(45) NOT NULL,
 					  `profile_name` varchar(45) NOT NULL,
 					  `profile_motto` varchar(145) DEFAULT NULL,
-					  `profile_head` blob,
+					  `profile_head` varchar(45) DEFAULT NULL,
 					  `profile_skill` varchar(145) DEFAULT NULL,
 					  `profile_hobby` varchar(145) DEFAULT NULL,
 					  `profile_now` varchar(25) DEFAULT NULL,
