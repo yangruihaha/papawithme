@@ -82,15 +82,28 @@ class HomeAction extends Action {
 			$info =  $upload->getUploadFileInfo();
 		}
 		// 保存表单数据 包括附件数据
-		$UserProfile = M('UserProfile'); // 实例化User对象
-		$UserProfile->create(); // 创建数据对象
+		$UserProfile = M('UserProfile'); // 实例化User对象		
+		$data['profile_name'] = $this->_param('profile_name');
+		$data['user_name']  = session('name');
+		$data['profile_head']  = $info[0]['savename']; // 保存上传的照片根据需要自行组装
+		$data['profile_motto']  = $this->_param('profile_motto');
+		$data['profile_skill']  = $this->_param('profile_skill');
+		$data['profile_hobby']  = $this->_param('profile_hobby');
+		$data['profile_now']  = $this->_param('profile_now');
+		$data['profile_department']  = $this->_param('profile_department');
+		$data['profile_birthday']  = $this->_param('profile_birthday');
+		$data['profile_autobiography']  = $this->_param('profile_autobiography');
 		
-		$UserProfile->profile_name = $this->_param('profile_name');
-		$UserProfile->user_name = session('name');
-		$UserProfile->profile_head = $info[0]['savename']; // 保存上传的照片根据需要自行组装
-		$UserProfile->profile_motto = $this->_param('profile_motto');
-		//$UserProfile->add(); // 写入用户数据到数据库
-		$this->success('数据保存成功！');
-	
+		$condition['user_name'] = session('name');
+		
+		if($UserProfile->add($data)){
+			$this->success('数据保存成功！');
+		}
+		else if($UserProfile->where($condition)->data($data)->save()){
+			$this->success('数据保存成功！');
+		}
+		else{
+			$this->failed('数据保存成功！');
+		}
 	}
 }
