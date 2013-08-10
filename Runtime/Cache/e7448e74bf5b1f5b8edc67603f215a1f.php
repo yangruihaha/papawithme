@@ -38,7 +38,7 @@ body{
 					<div class="span2">
 					</div>
 					<div class="span3">
-						<dl class="dl-horizontal">'; foreach ($profile as $key=>$value) { echo '<dt>'.$key.'</dt>'; echo '<dd>'.$value.'<br /></dd>'; } echo '			</dl>
+						<dl class="dl-horizontal">'; foreach ($profile as $key=>$value) { echo '<dt>'.$key.'</dt>'; if($key == "profile_head"){ echo '<dd><img src="'.$public.'/Uploads/'.session('name').'/head/'.$value.'" class="img-rounded"><br /></dd>'; } else{ echo '<dd>'.$value.'<br /></dd>'; } } echo '			</dl>
 					<a href="'.$appdir.'/index.php/Home/editProfile"><button class="btn btn-primary btn-block" type="button">编辑</button></a>
 					</div>
 					<div class="span7">
