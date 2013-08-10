@@ -71,6 +71,7 @@ class HomeAction extends Action {
 	}
 	
 	public function updateProfile(){
+		header("Content-Type:text/html; charset=utf-8");
 		import('ORG.Net.UploadFile');
 		$upload = new UploadFile();// 实例化上传类
 		$upload->maxSize  = 3145728 ;// 设置附件上传大小
@@ -97,13 +98,13 @@ class HomeAction extends Action {
 		$condition['user_name'] = session('name');
 		
 		if($UserProfile->add($data)){
-			$this->success('数据保存成功！');
+			$this->success('数据保存成功！', 'profile');
 		}
 		else if($UserProfile->where($condition)->data($data)->save()){
-			$this->success('数据保存成功！');
+			$this->success('数据保存成功！', 'profile');
 		}
 		else{
-			$this->failed('数据保存成功！');
+			$this->error('数据保存失败！');
 		}
 	}
 }

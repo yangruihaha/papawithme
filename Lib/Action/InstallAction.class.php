@@ -33,7 +33,7 @@
 					  `profile_autobiography` tinytext,
 					  PRIMARY KEY (`profile_id`),
 					  UNIQUE KEY `user_name` (`user_name`)
-					) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+					) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 				");
 
 			
