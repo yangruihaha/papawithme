@@ -32,5 +32,16 @@ body{
 					<div class=\"span7\">
 					</div>
 				</div>
-			</div>	"; else ; ?>
+			</div>	"; else{ echo '
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span2">
+					</div>
+					<div class="span3">
+						<dl class="dl-horizontal">'; foreach ($profile as $key=>$value) { echo '<dt>'.$key.'</dt>'; echo '<dd>'.$value.'</dd>'; } echo '			</dl>
+					</div>
+					<div class="span7">
+					</div>
+				</div>
+			</div>	'; }; ?>
 </body>

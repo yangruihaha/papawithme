@@ -17,9 +17,12 @@
 								</li>
 							</ul>
 							<ul class="nav pull-right">
-								<li>
-									<a href="<?php echo ($appdir); ?>/index.php/Home/profile">我</a>
-								</li>
+								<?php
+ if (session('name')!=null){ echo '
+											<li>
+												<a href='.$appdir.'/index.php/Home/profile>我</a>
+											</li>
+											'; } ?>
 								<li class="divider-vertical">
 								</li>
 								<li class="dropdown">
