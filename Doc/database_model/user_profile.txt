@@ -1,6 +1,7 @@
 id
-user_name
+user_name*
 name
+sex
 motto
 head
 skill

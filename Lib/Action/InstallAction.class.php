@@ -15,7 +15,9 @@
 					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
 					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
 					  );");
+				echo 'think_user 创建完成 <br>';
 				$model->execute("INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');");
+				echo '管理员信息已添加！<br>';
 				
 				$model->execute("drop table if exists `papawithme`.`think_user_profile`;");
 				$model->execute("
@@ -23,6 +25,7 @@
 					  `profile_id` bigint(20) NOT NULL AUTO_INCREMENT,
 					  `user_name` varchar(45) NOT NULL,
 					  `profile_name` varchar(45) NOT NULL,
+					  `profile_sex` varchar(45) NOT NULL,
 					  `profile_motto` varchar(145) DEFAULT NULL,
 					  `profile_head` varchar(45) DEFAULT NULL,
 					  `profile_skill` varchar(145) DEFAULT NULL,
@@ -35,8 +38,25 @@
 					  UNIQUE KEY `user_name` (`user_name`)
 					) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 				");
+				echo 'user_profile 创建成功！<br>';
 
-			
+				$model->execute("drop table if exists `papawithme`.`think_meeting`;");
+				$model->execute("
+					CREATE TABLE `papawithme`.`think_meeting` (
+					  `meeting_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+					  `type` SMALLINT UNSIGNED NOT NULL,
+					  `user_name` VARCHAR(45) NOT NULL,
+					  `attach0` TEXT,
+					  `attach1` TEXT,
+					  `attach2` TEXT,
+					  `attach3` TEXT,
+					  `attach4` TEXT,
+					  `attach5` TEXT,
+					  PRIMARY KEY (`meeting_id`)
+					)
+					ENGINE = InnoDB;
+				");
+				echo 'meeting 创建成功！<br>';
 					
 				$User = M('User');
 				$rs = $User->select();

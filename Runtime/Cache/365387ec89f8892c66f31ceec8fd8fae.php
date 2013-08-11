@@ -33,6 +33,11 @@ body{
 			<div id="collapseOne" class="accordion-body collapse">
 			<div class="accordion-inner">
 				看电影
+				<div class="btn-group">
+				  <button class="btn">想请客的男生</button>
+				  <button class="btn">想被约的女生</button>
+				  <button class="btn">想请客的女博士</button>
+				</div>
 			</div>
 			</div>
 			</div>

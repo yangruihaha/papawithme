@@ -1,0 +1,9 @@
+id
+type --- 0:保留类型 || 1:想请客的男生 || 2:想被约的女生 || 3:想请客的女博士 （待补充）
+user_name
+attach0
+attach1
+attach2
+attach3
+attach4
+attach5

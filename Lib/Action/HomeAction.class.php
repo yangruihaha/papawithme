@@ -78,15 +78,16 @@ class HomeAction extends Action {
 		$upload->allowExts  = array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
 		$upload->savePath =  './Public/Uploads/'.session('name').'/head/';// 设置附件上传目录
 		if(!$upload->upload()) {// 上传错误提示错误信息
-			$this->error($upload->getErrorMsg());
+			//$this->error($upload->getErrorMsg());
 		}else{// 上传成功 获取上传文件信息
 			$info =  $upload->getUploadFileInfo();
+			$data['profile_head']  = $info[0]['savename']; // 保存上传的照片根据需要自行组装
 		}
 		// 保存表单数据 包括附件数据
 		$UserProfile = M('UserProfile'); // 实例化User对象		
 		$data['profile_name'] = $this->_param('profile_name');
+		$data['profile_sex'] = $this->_param('profile_sex');
 		$data['user_name']  = session('name');
-		$data['profile_head']  = $info[0]['savename']; // 保存上传的照片根据需要自行组装
 		$data['profile_motto']  = $this->_param('profile_motto');
 		$data['profile_skill']  = $this->_param('profile_skill');
 		$data['profile_hobby']  = $this->_param('profile_hobby');

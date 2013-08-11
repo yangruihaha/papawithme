@@ -189,6 +189,16 @@ body{
 						</div>
 					</div>
 					<div class="control-group">
+						 <label class="control-label" for="profile_sex">性别</label>
+						<div class="controls">
+							<select name="profile_sex" id="profile_sex" />
+							<option value="男生">男生</option>
+							<option value="女生">女生</option>
+							<option value="女博士">女博士</option>
+							</select>
+						</div>
+					</div>
+					<div class="control-group">
 						 <label class="control-label" for="profile_motto">座右铭</label>
 						<div class="controls">
 							<input name="profile_motto" id="profile_motto" type="text" />

@@ -3,7 +3,7 @@
 			<div class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
 					<div class="container-fluid">
-						<a class="btn btn-navbar" data-target=".navbar-responsive-collapse" data-toggle="collapse"></a> <a class="brand" href="#">PapaWith.Me!</a>
+						<a class="btn btn-navbar" data-target=".navbar-responsive-collapse" data-toggle="collapse"></a> <a class="brand" href="<?php echo ($appdir); ?>/index.php/Home">PapaWith.Me!</a>
 						<div class="nav-collapse collapse navbar-responsive-collapse">
 							<ul class="nav">
 								<li class="active">
