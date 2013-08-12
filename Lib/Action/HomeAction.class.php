@@ -79,6 +79,7 @@ class HomeAction extends Action {
 		$upload->savePath =  './Public/Uploads/'.session('name').'/head/';// 设置附件上传目录
 		if(!$upload->upload()) {// 上传错误提示错误信息
 			//$this->error($upload->getErrorMsg());
+			$data['profile_head'] = 0;
 		}else{// 上传成功 获取上传文件信息
 			$info =  $upload->getUploadFileInfo();
 			$data['profile_head']  = $info[0]['savename']; // 保存上传的照片根据需要自行组装
