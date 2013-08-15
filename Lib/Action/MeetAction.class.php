@@ -82,6 +82,23 @@ class MeetAction extends Action {
 			print_r($data);
 			//$this->error('数据保存失败！');
 		}
+	}
+	
+	public function browse($type){
+		$this->assign('appdir','http://localhost/papawithme');
+		$this->assign('public','http://localhost/papawithme/' . 'Public');
+	
+		$Meeting = M('Meeting');
+		$condition['type'] = $type;
 		
+		$rs = $Meeting->where($condition)->select();
+		if($rs){
+		}
+		else{
+			$this->assign('users',null);
+		}
+		
+		$this->display();
+		$this->display('../menu');
 	}
 }

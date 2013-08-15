@@ -54,7 +54,7 @@
 					  `attach5` TEXT,
 					  PRIMARY KEY (`meeting_id`)
 					)
-					ENGINE = InnoDB;
+					ENGINE = InnoDB DEFAULT CHARSET=utf8;
 				");
 				echo 'meeting 创建成功！<br>';
 					
