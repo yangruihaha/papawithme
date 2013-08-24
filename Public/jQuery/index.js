@@ -59,19 +59,6 @@ $(document).ready(function() {
 
 });
 
-$(document).ready(function() {
-	
-    $("#fancy_login").fancybox({
-		openEffect	: 'elastic',
-    	closeEffect	: 'elastic',
-
-          helpers: {
-              title : {
-                  type : 'float'
-              }
-          }
-      });
-})
 
 
 

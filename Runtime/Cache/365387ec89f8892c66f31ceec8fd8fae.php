@@ -111,13 +111,13 @@ body{
 			</script>			
 		</div>
 		<div class="span6">
-			<img class="img-polaroid"  src="<?php echo ($public); ?>/styles/user_sample.jpg" />
+			<img class="img-polaroid"  src="<?php echo ($public); ?>/resources/user_sample.jpg" />
 		</div>
 	</div>
 	
 	<div class="row-fluid">
 		<div class="span6">
-			<img class="img-polaroid"  src="<?php echo ($public); ?>/styles/user_sample2.jpg" />
+			<img class="img-polaroid"  src="<?php echo ($public); ?>/resources/user_sample2.jpg" />
 		</div>
 		<div class="span6">
 			<canvas id="canvas1" height="500" width="500"></canvas>
