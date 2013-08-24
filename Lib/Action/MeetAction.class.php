@@ -93,6 +93,7 @@ class MeetAction extends Action {
 		
 		$rs = $Meeting->where($condition)->select();
 		if($rs){
+			$this->assign('users',$rs);
 		}
 		else{
 			$this->assign('users',null);

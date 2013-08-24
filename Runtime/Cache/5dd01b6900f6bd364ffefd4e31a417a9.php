@@ -20,5 +20,5 @@ body{
 	<?php
  if($users == null){ echo '
 				<p class="text-warning">这个类别还木有人</p>
-			'; } ?>
+			'; } else{ foreach($users as $user_profile){ echo $user_profile['user_name']."<br>"; } } ?>
 </body>
