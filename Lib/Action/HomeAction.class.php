@@ -6,14 +6,11 @@ class HomeAction extends Action {
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 		
 		$this->display();
-		$this->display('menu');
+		$this->display('../menu');
     }
 	
 	public function logout(){
-		$this->assign('appdir','http://localhost/papawithme');
-		$this->assign('public','http://localhost/papawithme/' . 'Public');
-		
-		session('name', null);
+		cookie('user_name', null);
 		redirect('index', 0, '页面跳转中...');
 	}
 	
@@ -22,7 +19,7 @@ class HomeAction extends Action {
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 		
 		$this->display();
-		$this->display('menu');
+		$this->display('../menu');
 	}
 	
 	
@@ -31,7 +28,7 @@ class HomeAction extends Action {
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 		
 		$this->display();
-		$this->display('menu');
+		$this->display('../menu');
 	}
 	
 	public function profile(){
@@ -39,7 +36,7 @@ class HomeAction extends Action {
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 	
 		$UserProfile = M('UserProfile');
-		$condition['user_name'] = session('name');
+		$condition['user_name'] = cookie('user_name');
 		$rs = $UserProfile->where($condition)->select();
 		
 		if($rs){
@@ -49,7 +46,7 @@ class HomeAction extends Action {
 			$this->assign('profile',null);
 		}
 		$this->display();
-		$this->display('menu');
+		$this->display('../menu');
 	}
 	
 	public function editProfile(){
@@ -57,7 +54,7 @@ class HomeAction extends Action {
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 	
 		$UserProfile = M('UserProfile');
-		$condition['user_name'] = session('name');
+		$condition['user_name'] = cookie('user_name');
 		$rs = $UserProfile->where($condition)->select();
 		
 		if($rs){
@@ -67,7 +64,7 @@ class HomeAction extends Action {
 			$this->assign('profile',null);
 		}
 		$this->display();
-		$this->display('menu');
+		$this->display('../menu');
 	}
 	
 	public function updateProfile(){
@@ -76,7 +73,7 @@ class HomeAction extends Action {
 		$upload = new UploadFile();// 实例化上传类
 		$upload->maxSize  = 3145728 ;// 设置附件上传大小
 		$upload->allowExts  = array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-		$upload->savePath =  './Public/Uploads/'.session('name').'/head/';// 设置附件上传目录
+		$upload->savePath =  './Public/Uploads/'.cookie('user_name').'/head/';// 设置附件上传目录
 		if(!$upload->upload()) {// 上传错误提示错误信息
 			//$this->error($upload->getErrorMsg());
 			$data['profile_head'] = 0;
@@ -88,7 +85,7 @@ class HomeAction extends Action {
 		$UserProfile = M('UserProfile'); // 实例化User对象		
 		$data['profile_name'] = $this->_param('profile_name');
 		$data['profile_sex'] = $this->_param('profile_sex');
-		$data['user_name']  = session('name');
+		$data['user_name']  = cookie('user_name');
 		$data['profile_motto']  = $this->_param('profile_motto');
 		$data['profile_skill']  = $this->_param('profile_skill');
 		$data['profile_hobby']  = $this->_param('profile_hobby');
@@ -97,7 +94,7 @@ class HomeAction extends Action {
 		$data['profile_birthday']  = $this->_param('profile_birthday');
 		$data['profile_autobiography']  = $this->_param('profile_autobiography');
 		
-		$condition['user_name'] = session('name');
+		$condition['user_name'] = cookie('user_name');
 		
 		if($UserProfile->add($data)){
 			$this->success('数据保存成功！', 'profile');

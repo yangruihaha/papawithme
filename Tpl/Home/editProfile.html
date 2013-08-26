@@ -183,15 +183,15 @@ body{
 			<div class="span6">
 				<form class="form-horizontal" id="profile_form" enctype="multipart/form-data" method="post" action="{$appdir}/index.php/Home/updateProfile">
 					<div class="control-group">
-						 <label class="control-label" for="profile_name">真实姓名</label>
+						<label class="control-label" for="profile_name">真实姓名</label>
 						<div class="controls">
-							<input name="profile_name" id="profile_name" type="text" />
+							<input name="profile_name" id="profile_name" value="{$profile['profile_name']}" type="text" />
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="profile_sex">性别</label>
 						<div class="controls">
-							<select name="profile_sex" id="profile_sex" />
+							<select name="profile_sex" id="profile_sex" value="{$profile['profile_sex']}" />
 							<option value="男生">男生</option>
 							<option value="女生">女生</option>
 							<option value="女博士">女博士</option>
@@ -201,49 +201,49 @@ body{
 					<div class="control-group">
 						 <label class="control-label" for="profile_motto">座右铭</label>
 						<div class="controls">
-							<input name="profile_motto" id="profile_motto" type="text" />
+							<input name="profile_motto" id="profile_motto" value="{$profile['profile_motto']}" type="text" />
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="profile_head">头像</label>
 						<div class="controls">
-							<input name="profile_head" id="profile_head" type="file" />
+							<input name="profile_head" id="profile_head" value="{$profile['profile_head']}" type="file" />
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="profile_skill">技能</label>
 						<div class="controls">
-							<input name="profile_skill" id="profile_skill" type="text" />
+							<input name="profile_skill" id="profile_skill" value="{$profile['profile_skill']}" type="text" />
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="profile_hobby">爱好</label>
 						<div class="controls">
-							<input name="profile_hobby" id="profile_hobby" type="text" />
+							<input name="profile_hobby" id="profile_hobby" value="{$profile['profile_hobby']}" type="text" />
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="profile_now">感情状态</label>
 						<div class="controls">
-							<input name="profile_now" id="profile_now" type="text" />
+							<input name="profile_now" id="profile_now" value="{$profile['profile_now']}" type="text" />
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="profile_department">院系</label>
 						<div class="controls">
-							<input name="profile_department" id="profile_department" type="text" />
+							<input name="profile_department" id="profile_department" value="{$profile['profile_department']}" type="text" />
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="profile_birthday">生日</label>
 						<div class="controls">
-							<input name="profile_birthday" id="profile_birthday" type="text" onfocus="HS_setDate(this)" />
+							<input name="profile_birthday" id="profile_birthday" value="{$profile['profile_birthday']}" type="text" onfocus="HS_setDate(this)" />
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="profile_autobiography">自我评价</label>
 						<div class="controls">
-							<input name="profile_autobiography" id="profile_autobiography" type="text" />
+							<input name="profile_autobiography" id="profile_autobiography" value="{$profile['profile_autobiography']}" type="text" />
 						</div>
 					</div>
 					<div class="control-group">

@@ -5,12 +5,12 @@ class MeetAction extends Action {
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 		
 		header("Content-Type:text/html; charset=utf-8");
-		if(session('name') == null){
+		if(cookie('user_name') == null){
 			$this->success('请先登录', '../Home/login');
 		}
 		else{
 			$UserProfile = M('UserProfile');
-			$condition['user_name'] = session('name');
+			$condition['user_name'] = cookie('user_name');
 			$rs = $UserProfile->where($condition)->select();
 			
 			if($rs){				
@@ -43,7 +43,7 @@ class MeetAction extends Action {
 	
 		if($pre_type == 1){
 			$UserProfile = M('UserProfile');
-			$condition['user_name'] = session('name');
+			$condition['user_name'] = cookie('user_name');
 			$rs = $UserProfile->where($condition)->select();
 			
 			if($rs){
@@ -62,7 +62,7 @@ class MeetAction extends Action {
 			}
 		}
 		
-		$data['user_name'] = session('name');
+		$data['user_name'] = cookie('user_name');
 		$data['attach0'] = $this->_param('attach0');
 		$data['attach1'] = $this->_param('attach1');
 		$data['attach2'] = $this->_param('attach2');
@@ -70,7 +70,7 @@ class MeetAction extends Action {
 		$data['attach4'] = $this->_param('attach4');
 		$data['attach5'] = $this->_param('attach5');
 		
-		$condition['user_name'] = session('name');
+		$condition['user_name'] = cookie('user_name');
 		
 		if($Meeting->add($data)){
 			$this->success('数据保存成功！');
@@ -94,6 +94,7 @@ class MeetAction extends Action {
 		$rs = $Meeting->where($condition)->select();
 		if($rs){
 			$this->assign('users',$rs);
+		}
 		}
 		else{
 			$this->assign('users',null);

@@ -20,7 +20,7 @@ class IndexAction extends Action {
 		//print_r($rs);
 		//print_r($this->_param('user_id'));
 		if($rs){
-			session('name', $rs[0]['user_name']);
+			cookie('user_name', $rs[0]['user_name'], 24*3600);
 			$this->ajaxReturn(0,"Login Success!",1);
 		}
 		else{
@@ -35,7 +35,7 @@ class IndexAction extends Action {
 		$data['user_psd'] = $this->_param('user_psd');
 		
 		if($User->add($data)){
-			session('name', $data['user_name']);
+			cookie('user_name', $data['user_name']);
 			$this->ajaxReturn(0,"Register Success!",1);
 		}
 		else{
