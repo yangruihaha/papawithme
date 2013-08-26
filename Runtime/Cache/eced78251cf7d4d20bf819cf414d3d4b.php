@@ -192,9 +192,15 @@ body{
 						 <label class="control-label" for="profile_sex">性别</label>
 						<div class="controls">
 							<select name="profile_sex" id="profile_sex" value="<?php echo ($profile['profile_sex']); ?>" />
-							<option value="男生">男生</option>
-							<option value="女生">女生</option>
-							<option value="女博士">女博士</option>
+							<?php if($profile['profile_sex'] == '男生' ): ?><option value='男生' selected="selected">男生</option>
+							<?php else: ?>
+								<option value='男生' >男生</option><?php endif; ?>
+							<?php if($profile['profile_sex'] == '女生' ): ?><option value='女生' selected="selected">女生</option>
+							<?php else: ?>
+								<option value='女生' >女生</option><?php endif; ?>
+							<?php if($profile['profile_sex'] == '女博士' ): ?><option value='女博士' selected="selected">女博士</option>
+							<?php else: ?>
+								<option value='女博士' >女博士</option><?php endif; ?>
 							</select>
 						</div>
 					</div>

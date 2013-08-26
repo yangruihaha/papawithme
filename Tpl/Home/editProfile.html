@@ -192,9 +192,21 @@ body{
 						 <label class="control-label" for="profile_sex">性别</label>
 						<div class="controls">
 							<select name="profile_sex" id="profile_sex" value="{$profile['profile_sex']}" />
-							<option value="男生">男生</option>
-							<option value="女生">女生</option>
-							<option value="女博士">女博士</option>
+							<if condition="$profile['profile_sex'] eq '男生' ">
+								<option value='男生' selected="selected">男生</option>
+							<else/>
+								<option value='男生' >男生</option>
+							</if>
+							<if condition="$profile['profile_sex'] eq '女生' ">
+								<option value='女生' selected="selected">女生</option>
+							<else/>
+								<option value='女生' >女生</option>
+							</if>
+							<if condition="$profile['profile_sex'] eq '女博士' ">
+								<option value='女博士' selected="selected">女博士</option>
+							<else/>
+								<option value='女博士' >女博士</option>
+							</if>
 							</select>
 						</div>
 					</div>
