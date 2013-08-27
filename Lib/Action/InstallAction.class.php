@@ -52,7 +52,8 @@
 					  `attach3` TEXT,
 					  `attach4` TEXT,
 					  `attach5` TEXT,
-					  PRIMARY KEY (`meeting_id`)
+					  PRIMARY KEY (`meeting_id`),
+					  UNIQUE INDEX `Index_c`(`type`, `user_name`)
 					)
 					ENGINE = InnoDB DEFAULT CHARSET=utf8;
 				");

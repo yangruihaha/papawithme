@@ -18,7 +18,7 @@
 							</ul>
 							<ul class="nav pull-right">
 								<?php
- if (session('name')!=null){ echo '
+ if (cookie('user_name')!=null){ echo '
 											<li>
 												<a href='.$appdir.'/index.php/Home/profile>我</a>
 											</li>
@@ -27,7 +27,7 @@
 								</li>
 								<li class="dropdown">
 									<?php
- if (session('name')!=null) echo "	<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">".session('name')."</a>
+ if (cookie('user_name')!=null) echo "	<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">".cookie('user_name')."</a>
 												<ul class=\"dropdown-menu\">
 													<li>
 														<a href=\"".$appdir."/index.php/Home/Logout\">登出</a>

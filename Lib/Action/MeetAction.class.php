@@ -95,7 +95,6 @@ class MeetAction extends Action {
 		if($rs){
 			$this->assign('users',$rs);
 		}
-		}
 		else{
 			$this->assign('users',null);
 		}

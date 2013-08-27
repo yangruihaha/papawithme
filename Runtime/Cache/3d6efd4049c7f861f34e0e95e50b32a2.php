@@ -37,7 +37,7 @@ body{
 					<div class="span2">
 					</div>
 					<div class="span3">
-						<dl class="dl-horizontal">'; foreach ($profile as $key=>$value) { echo '<dt>'.$key.'</dt>'; if($key != "profile_head"){ echo '<dd>'.$value.'<br /></dd>'; } else if($value != 0){ echo '<dd><img src="'.$public.'/Uploads/'.session('name').'/head/'.$value.'" class="img-rounded"><br /></dd>'; } } echo '			</dl>
+						<dl class="dl-horizontal">'; foreach ($profile as $key=>$value) { echo '<dt>'.$key.'</dt>'; if($key != "profile_head"){ echo '<dd>'.$value.'<br /></dd>'; } else if($value != 0){ echo '<dd><img src="'.$public.'/Uploads/'.cookie('user_name').'/head/'.$value.'" class="img-rounded"><br /></dd>'; } } echo '			</dl>
 					<a href="'.$appdir.'/index.php/Home/editProfile"><button class="btn btn-primary" type="button">还要美化一下资料</button></a>
 					<a href="'.$appdir.'/index.php/Meet/checkIn/pre_type/'.$pre_type.'"><button class="btn" type="button">确定，下一步</button></a>
 					</div>

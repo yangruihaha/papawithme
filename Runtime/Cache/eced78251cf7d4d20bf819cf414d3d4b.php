@@ -191,7 +191,7 @@ body{
 					<div class="control-group">
 						 <label class="control-label" for="profile_sex">性别</label>
 						<div class="controls">
-							<select name="profile_sex" id="profile_sex" value="<?php echo ($profile['profile_sex']); ?>" />
+							<select name="profile_sex" id="profile_sex" />
 							<?php if($profile['profile_sex'] == '男生' ): ?><option value='男生' selected="selected">男生</option>
 							<?php else: ?>
 								<option value='男生' >男生</option><?php endif; ?>
