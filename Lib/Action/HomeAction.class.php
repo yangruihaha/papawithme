@@ -53,6 +53,8 @@ class HomeAction extends Action {
 		$this->assign('appdir','http://localhost/papawithme');
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 	
+		cookie('ref_url', $this->_server('HTTP_REFERER'));
+	
 		$UserProfile = M('UserProfile');
 		$condition['user_name'] = cookie('user_name');
 		$rs = $UserProfile->where($condition)->select();
@@ -104,13 +106,13 @@ class HomeAction extends Action {
 		$condition['user_name'] = cookie('user_name');
 		
 		if($UserProfile->add($data)){
-			$this->success('数据保存成功！', 'profile');
+			$this->success('数据保存成功！', cookie('ref_url'));
 		}
 		else if($UserProfile->where($condition)->data($data)->save()){
-			$this->success('数据保存成功！', 'profile');
+			$this->success('数据保存成功！', cookie('ref_url'));
 		}
 		else{
-			$this->error('数据保存失败，或许你什么都没有改？', 'profile');
+			$this->error('数据保存失败，或许你什么都没有改？', cookie('ref_url'));
 		}
 	}
 }
