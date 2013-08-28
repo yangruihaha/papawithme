@@ -18,7 +18,7 @@ body{
 
 <body>
 	<?php
- if($type == 1){ echo'
+ if($type >= 1 or $type <=3){ echo'
 			<div class="container-fluid">
 				<div class="row-fluid">
 					<div class="span2">
