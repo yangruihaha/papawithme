@@ -5,6 +5,7 @@ class BoardAction extends Action {
 		$this->assign('appdir','http://localhost/papawithme');
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 		$this->display();
+		$this->display('../menu');
     }
 
 }

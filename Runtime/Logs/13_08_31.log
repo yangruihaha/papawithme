@@ -1,0 +1,2391 @@
+[ 2013-08-31T13:22:35+08:00 ] 0.0.0.0 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015810s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001235s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001353s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.056329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056453s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000829s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000814s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003509s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2013-08-31T13:22:36+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.010919s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011062s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026969s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000634s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000609s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000498s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002725s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000746s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000284s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.030903s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011981s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004299s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000090s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000074s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000018s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013665s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000062s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.013345s ]
+
+[ 2013-08-31T13:22:47+08:00 ] 0.0.0.0 /papawithme/index.php/Home/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000690s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000784s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031884s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000593s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000622s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000490s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002667s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000758s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000846s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000242s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.035713s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002405s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004159s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000079s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000074s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000016s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003984s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000059s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003604s ]
+
+[ 2013-08-31T13:22:50+08:00 ] 0.0.0.0 /papawithme/index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.058659s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `think_user` WHERE ( `user_email` = 'root@papawith.me' ) AND ( `user_psd` = 'papawithme~' )  [ RunTime:0.001129s ]
+
+[ 2013-08-31T13:22:50+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001626s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001139s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001365s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012899s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000848s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000830s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000714s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003918s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001186s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001338s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000299s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.018719s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003247s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006240s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000075s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000016s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005633s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000049s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004662s ]
+
+[ 2013-08-31T13:49:48+08:00 ] 0.0.0.0 /papawithme/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000774s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000879s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007496s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000553s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000627s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000473s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002586s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000727s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2013-08-31T13:49:50+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000889s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000675s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007537s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000517s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000525s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000399s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000640s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000233s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.010950s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002383s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003736s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000092s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000075s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000018s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003904s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000061s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003679s ]
+
+[ 2013-08-31T13:49:53+08:00 ] 0.0.0.0 /papawithme/index.php/Home/profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `think_user_profile` [ RunTime:0.078761s ]
+SQL: SELECT * FROM `think_user_profile` WHERE ( `user_name` = 'root' )  [ RunTime:0.000578s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001235s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001424s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012834s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000861s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000930s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000974s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004989s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001997s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000524s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.020731s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007057s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008825s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000271s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000225s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000053s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011333s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000182s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.010931s ]
+
+[ 2013-08-31T14:08:04+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001120s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001268s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011454s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000784s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000744s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000566s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003399s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000327s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.016525s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002165s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005534s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000057s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000056s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004333s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000045s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003419s ]
+
+[ 2013-08-31T14:08:06+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000923s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001065s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003530s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000489s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000507s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000392s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002231s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000715s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000234s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006934s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004940s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003673s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000083s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000076s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000016s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006472s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000059s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.006139s ]
+
+[ 2013-08-31T14:09:09+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001710s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001453s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001658s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011681s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000726s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000720s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000589s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003119s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000837s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000270s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.016209s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002738s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004852s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000090s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000086s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000020s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004576s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000069s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004182s ]
+
+[ 2013-08-31T14:09:10+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002859s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003210s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000846s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000988s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007786s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000593s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000919s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000552s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003047s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000731s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000237s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.012026s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002634s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004531s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000082s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000075s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000017s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004189s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000060s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003849s ]
+
+[ 2013-08-31T14:15:06+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000897s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000717s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006790s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000551s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000568s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000436s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002465s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000787s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000251s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.010368s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002839s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003905s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000105s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000013s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004363s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000048s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003989s ]
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002944s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002313s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002613s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026808s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000818s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000796s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000622s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003474s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001238s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000358s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.032088s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003445s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005632s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000135s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000099s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000024s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005750s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000079s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.005190s ]
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/js/imagesloaded.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/js/masonry.pkgd.min.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/js/classie.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001303s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/1.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/js/AnimOnScroll.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/3.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000518s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/4.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000518s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/12.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000558s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/13.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000646s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/10.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/9.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/2.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/14.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000588s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/5.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/6.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/7.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000555s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:57+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/8.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000558s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/11.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/3.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/4.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/1.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/12.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/13.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000651s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/10.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001053s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/9.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000898s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/2.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/14.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/6.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/5.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/7.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000849s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/8.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:17:58+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/11.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:00+08:00 ] 0.0.0.0 /papawithme/index.php/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:index
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/1.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001130s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/3.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/13.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000810s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/4.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/12.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/10.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/9.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/14.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000572s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/2.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/5.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/6.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/7.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/8.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000539s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:18:03+08:00 ] 0.0.0.0 /papawithme/index.php/gridLoading/images/11.png
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+ERR: 无法加载模块:gridLoading
+
+[ 2013-08-31T14:19:07+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001860s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002126s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001801s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002078s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024969s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001005s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000918s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000776s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004157s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001242s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000372s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.031029s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004111s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006505s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000125s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000026s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006591s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000061s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.005964s ]
+
+[ 2013-08-31T14:19:22+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000557s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013746s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000533s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000524s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000391s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002364s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000693s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000250s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.017236s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002582s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003820s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000078s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000075s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000016s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004126s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000060s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003801s ]
+
+[ 2013-08-31T14:19:23+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000796s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000608s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007650s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000516s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000474s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000404s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002255s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000789s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000203s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.011017s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002386s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003646s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000082s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000075s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000017s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003866s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000061s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003552s ]
+
+[ 2013-08-31T14:19:24+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000443s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011999s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000755s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000435s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000330s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002493s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000298s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.015813s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002442s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004241s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000068s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000058s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000014s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004239s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000046s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003627s ]
+
+[ 2013-08-31T14:19:25+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000519s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007553s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000535s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000496s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000342s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002140s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000136s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.010590s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001859s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003215s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000057s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000054s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002979s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000043s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002744s ]
+
+[ 2013-08-31T14:19:26+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000585s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015684s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000630s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000551s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000387s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002522s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000924s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000289s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.019620s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003077s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004308s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000118s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000077s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000018s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005051s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000062s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004543s ]
+
+[ 2013-08-31T14:19:28+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000569s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000673s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007608s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000499s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000542s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000412s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002384s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000177s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.011131s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002260s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003771s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000059s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000055s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000013s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003708s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000044s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003234s ]
+
+[ 2013-08-31T14:19:28+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000426s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014846s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000621s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000514s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000318s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002190s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000195s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.018004s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001985s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003421s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000064s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000057s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000013s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003261s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000046s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002929s ]
+
+[ 2013-08-31T14:19:38+08:00 ] 0.0.0.0 /papawithme/index.php/Home/profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `think_user_profile` [ RunTime:0.007112s ]
+SQL: SELECT * FROM `think_user_profile` WHERE ( `user_name` = 'root' )  [ RunTime:0.000938s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001893s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002207s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019599s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000974s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000952s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000746s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004379s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001259s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001432s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000336s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.026152s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004558s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006909s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000145s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000148s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000033s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007249s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000110s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.006706s ]
+
+[ 2013-08-31T14:20:12+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002379s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002639s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000802s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014018s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000608s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000589s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000475s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002589s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000800s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000251s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.017752s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002559s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004067s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000080s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000074s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000016s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004137s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000060s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003779s ]
+
+[ 2013-08-31T14:20:17+08:00 ] 0.0.0.0 /papawithme/index.php/Home/profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `think_user_profile` [ RunTime:0.006570s ]
+SQL: SELECT * FROM `think_user_profile` WHERE ( `user_name` = 'root' )  [ RunTime:0.000903s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002350s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002683s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021912s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001634s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001110s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000790s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005299s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001191s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001353s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000399s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.029346s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004334s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007886s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000139s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000127s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000029s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000102s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.006502s ]
+
+[ 2013-08-31T14:20:20+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000654s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012355s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000514s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000441s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000330s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001965s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000578s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000173s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.015195s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001950s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003055s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000057s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000054s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000026s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003103s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000045s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002885s ]
+
+[ 2013-08-31T14:20:21+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007121s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000388s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000395s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001768s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000128s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.009753s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001856s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002792s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000058s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000053s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002942s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000044s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002707s ]
+
+[ 2013-08-31T14:20:25+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000570s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013832s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000547s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000534s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000411s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002372s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000229s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.017301s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002043s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003800s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000058s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000055s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003527s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000045s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003077s ]
+
+[ 2013-08-31T14:32:46+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003192s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001052s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001193s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020232s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000912s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000809s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000587s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003509s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000899s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001027s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000347s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.025246s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003166s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005454s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000073s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000015s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005182s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000050s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004547s ]
+
+[ 2013-08-31T14:32:59+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002454s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001699s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001943s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015824s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000738s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000695s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000522s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003066s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000759s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000266s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.020224s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002849s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004703s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000089s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000086s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000019s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004586s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000067s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004253s ]
+
+[ 2013-08-31T14:33:09+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000676s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000556s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010524s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000491s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000450s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000368s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002029s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000193s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.013410s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001953s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003135s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000060s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000055s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000014s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003120s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000045s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002869s ]
+
+[ 2013-08-31T14:33:22+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002026s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002290s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001159s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001313s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020922s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000863s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000860s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000687s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003714s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000239s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.025874s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002083s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005248s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000084s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000055s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003634s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000044s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003165s ]
+
+[ 2013-08-31T14:33:32+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002710s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000685s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018348s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000772s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000687s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000538s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003191s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000894s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001010s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000305s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.022996s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003365s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005057s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000101s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000098s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005338s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000080s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004934s ]
+
+[ 2013-08-31T14:33:43+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001641s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001296s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001510s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020470s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000728s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000659s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000514s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000291s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.024916s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003336s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004764s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000099s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000094s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005192s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000074s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004836s ]
+
+[ 2013-08-31T14:33:55+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000821s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000546s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013623s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000637s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000575s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000454s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002614s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000784s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000197s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.017398s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002607s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004062s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000086s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000079s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000017s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004145s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000062s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003857s ]
+
+[ 2013-08-31T14:34:10+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001685s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002030s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001101s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001313s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019396s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000384s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000327s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000281s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001580s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000130s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.021835s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001898s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002521s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000058s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000055s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002897s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000045s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002762s ]
+
+[ 2013-08-31T14:34:20+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001897s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001144s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012992s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000395s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000533s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000273s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001879s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000549s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000250s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.016006s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001967s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003269s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000061s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000054s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003427s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000060s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003149s ]
+
+[ 2013-08-31T14:34:30+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002053s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001583s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001799s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016804s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000420s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000376s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000299s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001776s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000172s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.019581s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001860s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002900s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000059s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000056s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000013s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003043s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000045s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002754s ]
+
+[ 2013-08-31T14:35:07+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002536s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001756s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016117s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000731s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000703s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000548s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003103s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000881s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000287s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.020665s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002927s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004824s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000092s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000086s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000019s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004765s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000073s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004395s ]
+
+[ 2013-08-31T14:35:27+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000521s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009894s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000446s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000483s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000301s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001885s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000535s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000178s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.012585s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001796s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002933s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000059s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000056s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000013s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002918s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000045s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002732s ]
+
+[ 2013-08-31T14:36:15+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001288s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000855s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020178s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000556s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000501s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000362s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002159s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000580s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000134s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.023244s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001894s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003197s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000058s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000056s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002990s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000044s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002743s ]
+
+[ 2013-08-31T14:36:22+08:00 ] 0.0.0.0 /papawithme/index.php/Home/profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `think_user_profile` [ RunTime:0.007216s ]
+SQL: SELECT * FROM `think_user_profile` WHERE ( `user_name` = 'root' )  [ RunTime:0.000970s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001949s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002275s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020640s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001380s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001451s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001086s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006643s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002117s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000690s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.030465s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003541s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010855s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000091s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000126s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000031s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007813s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000068s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.006263s ]
+
+[ 2013-08-31T14:37:09+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002483s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001146s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001371s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009259s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000779s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000767s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000693s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003578s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001185s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000331s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.014484s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003548s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005664s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000116s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000104s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000024s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005795s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000085s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.005274s ]
+
+[ 2013-08-31T14:38:18+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000662s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006403s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000466s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000465s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002050s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000197s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.009425s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002020s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003277s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000067s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000067s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000013s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003323s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000046s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003047s ]
+
+[ 2013-08-31T14:38:25+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000782s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000900s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007896s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000615s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000610s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000482s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002687s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000269s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.011742s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002606s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004213s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000084s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000076s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000017s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004229s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000060s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003916s ]
+
+[ 2013-08-31T14:38:37+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002257s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002625s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001185s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001424s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011928s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000853s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000810s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000696s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003675s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001178s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000300s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.017320s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003988s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005812s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000142s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000134s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000028s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006275s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000101s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.005935s ]
+
+[ 2013-08-31T14:38:51+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001121s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001278s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011984s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000906s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000862s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003832s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000242s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.017334s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002097s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000060s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000054s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000013s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003910s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000045s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003114s ]
+
+[ 2013-08-31T14:40:25+08:00 ] 0.0.0.0 /papawithme/index.php/Home
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001088s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001350s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014027s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000909s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000870s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000704s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004026s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000183s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.019316s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002028s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005482s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000075s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000056s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000013s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003465s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000046s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003078s ]
+
+[ 2013-08-31T14:40:26+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000867s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001078s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001347s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007435s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000498s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000533s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000445s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002433s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000894s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000246s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.011235s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003149s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004029s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000086s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000075s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000017s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004885s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000059s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004435s ]
+
+[ 2013-08-31T14:43:36+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002657s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002998s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002536s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018770s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000814s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000734s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000613s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003339s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000337s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.023595s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003217s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005134s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000097s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000093s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000020s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005114s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000075s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004757s ]
+
+[ 2013-08-31T14:43:42+08:00 ] 0.0.0.0 /papawithme/index.php/Home/Logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+
+[ 2013-08-31T14:43:42+08:00 ] 0.0.0.0 /papawithme/index.php/Home/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000602s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005846s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000461s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000513s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000394s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002273s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000630s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000193s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.009112s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001945s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003531s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000058s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000055s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003268s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000044s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002875s ]
+
+[ 2013-08-31T14:43:44+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000718s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000641s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014347s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000522s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000472s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000395s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002170s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000553s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000185s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.017487s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001957s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003411s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000065s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000058s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000014s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003249s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000045s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002961s ]
+
+[ 2013-08-31T14:44:01+08:00 ] 0.0.0.0 /papawithme/index.php/Board
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001572s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001123s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022246s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000489s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000415s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001948s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000132s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.025139s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001850s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002971s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000056s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000055s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002929s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000043s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.002685s ]
+

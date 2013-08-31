@@ -40,7 +40,8 @@ body{
 						<dl class="dl-horizontal">'; foreach ($profile as $key=>$value) { echo '<dt>'.$key.'</dt>'; if($key != "profile_head"){ echo '<dd>'.$value.'<br /></dd>'; } else if($value != 0){ echo '<dd><img src="'.$public.'/Uploads/'.cookie('user_name').'/head/'.$value.'" class="img-rounded"><br /></dd>'; } } echo '			</dl>
 					<a href="'.$appdir.'/index.php/Home/editProfile"><button class="btn btn-primary btn-block" type="button">编辑</button></a>
 					</div>
-					
+					<div class="span7">
+					</div>
 				</div>
 			</div>	
 			'; }; ?>
