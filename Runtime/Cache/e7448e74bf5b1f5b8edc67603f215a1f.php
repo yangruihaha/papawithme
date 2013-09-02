@@ -55,14 +55,20 @@ body{
 								strokeColor : "rgba(151,187,205,1)",
 								pointColor : "rgba(151,187,205,1)",
 								pointStrokeColor : "#fff",
-								data : [1,1,1,1,1,1,1]
+								data : ['.$attribute["atrribute0"].',
+										'.$attribute["atrribute1"].',
+										'.$attribute["atrribute2"].',
+										'.$attribute["atrribute3"].',
+										'.$attribute["atrribute4"].',
+										'.$attribute["atrribute5"].',
+										'.$attribute["atrribute6"].']
 								}
 							]
 
 							}
 							var myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData,{scaleOverride  : true,scaleSteps : 10, scaleStepWidth : 1, pointLabelFontSize : 10});
 						</script>	
-						<a href="'.$appdir.'/index.php/Home/editAttribute"><button class="btn btn-primary btn-block" type="button">快来给自己加点</button></a>
+						<a href="'.$appdir.'/index.php/Home/editAttribute"><button class="btn btn-primary btn-block" type="button">加点(还剩'.$attribute["free_points"].'点可加)</button></a>
 					</div>
 					<div class="span4">
 					</div>

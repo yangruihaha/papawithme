@@ -39,8 +39,12 @@ class HomeAction extends Action {
 		$condition['user_name'] = cookie('user_name');
 		$rs = $UserProfile->where($condition)->select();
 		
-		if($rs){
+		$UserAttribute = M('UserAttribute');
+		$rs1 = $UserAttribute->where($condition)->select();
+		
+		if($rs and $rs1){
 			$this->assign('profile',$rs[0]);
+			$this->assign('attribute',$rs1[0]);
 		}
 		else{
 			$this->assign('profile',null);
@@ -124,7 +128,9 @@ class HomeAction extends Action {
 		$this->assign('appdir','http://localhost/papawithme');
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 	
-	
+		$UserAttribute = M('UserAttribute');
+		$condition['user_name'] = cookie('user_name');
+		$rs = $UserAttribute->where($condition)->select();
 
 		$this->display();
 		$this->display('../menu');
