@@ -1,0 +1,10 @@
+attribute_id
+user_name
+atrribute0
+atrribute1
+atrribute2
+atrribute3
+atrribute4
+atrribute5
+atrribute6
+free_points

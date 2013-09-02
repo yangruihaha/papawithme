@@ -106,6 +106,10 @@ class HomeAction extends Action {
 		$condition['user_name'] = cookie('user_name');
 		
 		if($UserProfile->add($data)){
+			$UserAttribute = M('UserAttribute');
+			$attribute_data['user_name'] = cookie('user_name');
+			$UserAttribute->add($attribute_data);
+		
 			$this->success('数据保存成功！', cookie('ref_url'));
 		}
 		else if($UserProfile->where($condition)->data($data)->save()){
@@ -114,5 +118,15 @@ class HomeAction extends Action {
 		else{
 			$this->error('数据保存失败，或许你什么都没有改？', cookie('ref_url'));
 		}
+	}
+	
+	public function editAttribute(){
+		$this->assign('appdir','http://localhost/papawithme');
+		$this->assign('public','http://localhost/papawithme/' . 'Public');
+	
+	
+
+		$this->display();
+		$this->display('../menu');
 	}
 }

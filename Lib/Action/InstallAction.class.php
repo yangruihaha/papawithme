@@ -14,7 +14,8 @@
 					  UNIQUE INDEX `user_name_UNIQUE` (`user_name` ASC) ,
 					  UNIQUE INDEX `user_psd_UNIQUE` (`user_psd` ASC) ,
 					  UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC) 
-					  );");
+					  ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+					  ");
 				echo 'think_user 创建完成 <br>';
 				$model->execute("INSERT INTO `papawithme`.`think_user` (`user_name`, `user_psd`, `user_email`) VALUES ('root', 'papawithme~', 'root@papawith.me');");
 				echo '管理员信息已添加！<br>';
@@ -58,6 +59,26 @@
 					ENGINE = InnoDB DEFAULT CHARSET=utf8;
 				");
 				echo 'meeting 创建成功！<br>';
+				
+				$model->execute("drop table if exists `papawithme`.`think_user_attribute`;");
+				$model->execute("
+					CREATE TABLE `papawithme`.`think_user_attribute` (
+					  `attribute_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+					  `user_name` VARCHAR(45) NOT NULL,
+					  `atrribute0` TINYINT DEFAULT 1,
+					  `atrribute1` TINYINT DEFAULT 1,
+					  `atrribute2` TINYINT DEFAULT 1,
+					  `atrribute3` TINYINT DEFAULT 1,
+					  `atrribute4` TINYINT DEFAULT 1,
+					  `atrribute5` TINYINT DEFAULT 1,
+					  `atrribute6` TINYINT DEFAULT 1,
+					  `free_points` TINYINT DEFAULT 5,
+					  PRIMARY KEY (`attribute_id`),
+					  UNIQUE KEY `user_name` (`user_name`)
+					)
+					ENGINE = InnoDB DEFAULT CHARSET=utf8;
+				");
+				echo 'user_attribute 创建成功！<br>';
 					
 				$User = M('User');
 				$rs = $User->select();
