@@ -13,6 +13,8 @@ body{
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="<?php echo ($public); ?>/bootstrap/js/bootstrap.min.js"></script>
 
+<script type="text/javascript" src="<?php echo ($public); ?>/jQuery/Chart.min.js"></script>
+
 <title>Welcome to Papawithme!</title>
 </head>
 
@@ -38,9 +40,31 @@ body{
 					</div>
 					<div class="span3">
 						<dl class="dl-horizontal">'; foreach ($profile as $key=>$value) { echo '<dt>'.$key.'</dt>'; if($key != "profile_head"){ echo '<dd>'.$value.'<br /></dd>'; } else if($value != 0){ echo '<dd><img src="'.$public.'/Uploads/'.cookie('user_name').'/head/'.$value.'" class="img-rounded"><br /></dd>'; } } echo '			</dl>
-					<a href="'.$appdir.'/index.php/Home/editProfile"><button class="btn btn-primary btn-block" type="button">编辑</button></a>
+						<a href="'.$appdir.'/index.php/Home/editProfile"><button class="btn btn-primary btn-block" type="button">编辑</button></a>
 					</div>
-					<div class="span7">
+					<div class="span3">
+						<canvas id="canvas" height="300" width="300"></canvas>
+						<script>
+
+							var radarChartData = {
+							labels : ["Eating","Drinking","Sleeping","Designing","Coding","Partying","Running"],
+							datasets : [
+							
+								{
+								fillColor : "rgba(151,187,205,0.5)",
+								strokeColor : "rgba(151,187,205,1)",
+								pointColor : "rgba(151,187,205,1)",
+								pointStrokeColor : "#fff",
+								data : [1,1,1,1,1,1,1]
+								}
+							]
+
+							}
+							var myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData,{scaleOverride  : true,scaleSteps : 10, scaleStepWidth : 1, pointLabelFontSize : 10});
+						</script>	
+						<a href="'.$appdir.'/index.php/Home/editAttribute"><button class="btn btn-primary btn-block" type="button">角色加点</button></a>
+					</div>
+					<div class="span4">
 					</div>
 				</div>
 			</div>	
