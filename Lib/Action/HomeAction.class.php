@@ -138,7 +138,7 @@ class HomeAction extends Action {
 		else{
 			$this->assign('attribute',null);
 		}
-
+		
 		$this->display();
 		$this->display('../menu');
 	}
