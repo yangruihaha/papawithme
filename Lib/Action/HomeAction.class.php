@@ -131,6 +131,13 @@ class HomeAction extends Action {
 		$UserAttribute = M('UserAttribute');
 		$condition['user_name'] = cookie('user_name');
 		$rs = $UserAttribute->where($condition)->select();
+		
+		if($rs){
+			$this->assign('attribute',$rs[0]);
+		}
+		else{
+			$this->assign('attribute',null);
+		}
 
 		$this->display();
 		$this->display('../menu');
