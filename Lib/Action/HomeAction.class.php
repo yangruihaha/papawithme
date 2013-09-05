@@ -142,4 +142,16 @@ class HomeAction extends Action {
 		$this->display();
 		$this->display('../menu');
 	}
+	
+	public function updateAttribute(){
+		$UserAttribute = M('UserAttribute');
+		$condition['user_name'] = cookie('user_name');
+		
+		if($UserAttribute->where($condition)->data($this->_post())->save()){
+			$this->success('数据保存成功！', 'profile');
+		}
+		else{
+			$this->error('数据保存失败，或许你什么都没有改？');
+		}
+	}
 }
