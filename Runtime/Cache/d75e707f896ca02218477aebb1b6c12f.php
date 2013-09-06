@@ -13,7 +13,7 @@
 									<a href="#">文</a>
 								</li>
 								<li>
-									<a href="#">告</a>
+									<a href="<?php echo ($appdir); ?>/index.php/Board">告</a>
 								</li>
 							</ul>
 							<ul class="nav pull-right">

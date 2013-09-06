@@ -23,41 +23,95 @@ body{
 		<div class="span6">
 			<div class="accordion" id="accordion2">
 			<div class="accordion-group">
-			<div class="accordion-heading">
-			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-				周末， 我想约个人
-			</a>
-			</div>
-			<div id="collapseOne" class="accordion-body collapse">
-			<div class="accordion-inner">
-				看电影
-				<div class="btn-toolbar">
-					<div class="btn-group">
-						<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/1"><button class="btn">想请客的男生</button></a>
-						<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/2"><button class="btn">想被约的女生</button></a>
-						<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/3"><button class="btn">想请客的女博士</button></a>
-					</div>
-					<div class="btn-group">
-						<a href="<?php echo ($appdir); ?>/index.php/Meet/preCheckIn/pre_type/1"><button class="btn">登记</button></a>
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+						周末， 我想约个人
+					</a>
+				</div>
+				<div id="collapseOne" class="accordion-body collapse">
+					<div class="accordion-inner">
+						看电影
+						<div class="btn-toolbar">
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/1"><button class="btn">想请客的男生</button></a>
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/2"><button class="btn">想被约的女生</button></a>
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/3"><button class="btn">想请客的女博士</button></a>
+						</div>
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/preCheckIn/pre_type/1"><button class="btn">登记</button></a>
+						</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			</div>
-			</div>
 			<div class="accordion-group">
-			<div class="accordion-heading">
-			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-				其实我想，拜师学艺
-			</a>
-			</div>
-			<div id="collapseTwo" class="accordion-body collapse">
-			<div class="accordion-inner">
-				编程，网站
-			</div>
-			<div class="accordion-inner">
-				产品& 交互
-			</div>
-			</div>
+				<div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+						其实我想，拜师学艺
+					</a>
+				</div>
+				<div id="collapseTwo" class="accordion-body collapse">
+					<div class="accordion-inner">
+						编程，网站		
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/4"><button class="btn">想拜师</button></a>
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/5"><button class="btn">想收徒</button></a>
+						</div>
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/preCheckIn/pre_type/2"><button class="btn">登记</button></a>
+						</div>
+					</div>
+					<div class="accordion-inner">
+						产品& 交互
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/6"><button class="btn">想拜师</button></a>
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/7"><button class="btn">想收徒</button></a>
+						</div>
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/preCheckIn/pre_type/3"><button class="btn">登记</button></a>
+						</div>
+					</div>
+					<div class="accordion-inner">
+						编程, iPhone
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/8"><button class="btn">想拜师</button></a>
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/9"><button class="btn">想收徒</button></a>
+						</div>
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/preCheckIn/pre_type/4"><button class="btn">登记</button></a>
+						</div>
+					</div>
+					<div class="accordion-inner">
+						设计, PS
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/10"><button class="btn">想拜师</button></a>
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/11"><button class="btn">想收徒</button></a>
+						</div>
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/preCheckIn/pre_type/5"><button class="btn">登记</button></a>
+						</div>
+					</div>
+					<div class="accordion-inner">
+						编程, Android
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/12"><button class="btn">想拜师</button></a>
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/13"><button class="btn">想收徒</button></a>
+						</div>
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/preCheckIn/pre_type/6"><button class="btn">登记</button></a>
+						</div>
+					</div>
+					<div class="accordion-inner">
+						编程, 游戏
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/14"><button class="btn">想拜师</button></a>
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/browse/type/15"><button class="btn">想收徒</button></a>
+						</div>
+						<div class="btn-group">
+							<a href="<?php echo ($appdir); ?>/index.php/Meet/preCheckIn/pre_type/7"><button class="btn">登记</button></a>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="accordion-group">
 			<div class="accordion-heading">

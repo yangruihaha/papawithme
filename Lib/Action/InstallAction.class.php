@@ -79,6 +79,39 @@
 					ENGINE = InnoDB DEFAULT CHARSET=utf8;
 				");
 				echo 'user_attribute 创建成功！<br>';
+				
+				$model->execute("drop table if exists `papawithme`.`think_meeting_attach_info`;");
+				$model->execute("
+					CREATE TABLE `papawithme`.`think_meeting_attach_info` (
+					  `attach_info_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+					  `type` SMALLINT UNSIGNED NOT NULL,
+					  `attach_info0` VARCHAR(45) NOT NULL,
+					  `attach_info1` VARCHAR(45) NOT NULL,
+					  `attach_info2` VARCHAR(45) NOT NULL,
+					  `attach_info3` VARCHAR(45) NOT NULL,
+					  `attach_info4` VARCHAR(45) NOT NULL,
+					  `attach_info5` VARCHAR(45) NOT NULL,
+					  PRIMARY KEY (`attach_info_id`),
+					  UNIQUE KEY `user_name` (`type`)
+					)
+					ENGINE = InnoDB DEFAULT CHARSET=utf8;
+				");
+				
+				/*初始化attach的一些说明信息*/
+				$MeetingAttachInfo = M('MeetingAttachInfo');
+				$data['attach_info0'] = "想遇见怎样的人 , 一起去看电影呢 ?";
+				$data['attach_info1'] = "你心目中经典的电影有 ? 为什么 ?";
+				$data['attach_info2'] = "假如你是制片人 , 会拍什么 ?";
+				$data['attach_info3'] = "你喜欢的演员、导演和代表作是 ?";
+				$data['attach_info4'] = "写几句让你印象深刻的台词 ?";
+				$data['attach_info5'] = "哪些电影片段 , 让你情不自禁 ?";
+				$data['type'] = 1;
+				if($MeetingAttachInfo->add($data)){
+					echo '---添加meeting attach info成功 type:1<br>';
+				}
+				
+				
+				echo 'user_attribute 创建成功！<br>';
 					
 				$User = M('User');
 				$rs = $User->select();

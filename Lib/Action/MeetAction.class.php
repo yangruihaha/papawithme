@@ -26,7 +26,7 @@ class MeetAction extends Action {
 		
 	}
 	
-	public function checkIn($pre_type){
+	public function checkIn($pre_type, $choose_type = 0){
 		$this->assign('appdir','http://localhost/papawithme');
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 		
@@ -52,6 +52,9 @@ class MeetAction extends Action {
 			else{
 				$this->error('读取资料失败！');
 			}
+		}
+		else if($pre_type > 1 and $pre_type <=7){
+			$type = $pre_type*2 + $choose_type;
 		}
 		$condition['type'] = $type;
 		$this->assign('type',$type);
