@@ -105,13 +105,46 @@
 				$data['attach_info3'] = "你喜欢的演员、导演和代表作是 ?";
 				$data['attach_info4'] = "写几句让你印象深刻的台词 ?";
 				$data['attach_info5'] = "哪些电影片段 , 让你情不自禁 ?";
-				$data['type'] = 1;
-				if($MeetingAttachInfo->add($data)){
-					echo '---添加meeting attach info成功 type:1<br>';
+				for($i = 1; $i <= 3; $i = $i+1){			
+					$data['type'] = $i;
+					if($MeetingAttachInfo->add($data)){
+						echo '---添加meeting attach info成功 type:'.$i.'<br>';
+					}
+					else{
+						echo '---添加meeting attach info失败 type:'.$i.'<br>';
+					}
 				}
 				
+				unset($data);
+				$data['attach_info0'] = "能回报什么 ?";
+				$data['attach_info1'] = "为什么想学 ?";
+				$data['attach_info2'] = "说说你都折腾过什么 ...";
+				for($i = 4; $i <= 14; $i = $i+2){
+					$data['type'] = $i;
+					if($MeetingAttachInfo->add($data)){
+						echo '---添加meeting attach info成功 type:'.$i.'<br>';
+					}
+					else{
+						echo '---添加meeting attach info失败 type:'.$i.'<br>';
+					}
+				}
 				
-				echo 'user_attribute 创建成功！<br>';
+				unset($data);
+				$data['attach_info0'] = "对学徒的要求";
+				$data['attach_info1'] = "具体能教的有 ?";
+				$data['attach_info2'] = "说说你都折腾过什么 ...";
+				for($i = 5; $i <= 15; $i = $i+2){
+					$data['type'] = $i;
+					if($MeetingAttachInfo->add($data)){
+						echo '---添加meeting attach info成功 type:'.$i.'<br>';
+					}
+					else{
+						echo '---添加meeting attach info失败 type:'.$i.'<br>';
+					}
+				}
+				
+				echo 'think_meeting_attach_info 创建成功！<br>';
+					
 					
 				$User = M('User');
 				$rs = $User->select();

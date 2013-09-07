@@ -27,17 +27,17 @@
 								</li>
 								<li class="dropdown">
 									<?php
- if (cookie('user_name')!=null) echo "	<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">".cookie('user_name')."</a>
-												<ul class=\"dropdown-menu\">
+ if (cookie('user_name')!=null) echo '	<a class="dropdown-toggle" data-toggle="dropdown" href="#">'.cookie('user_name').'</a>
+												<ul class="dropdown-menu">
 													<li>
-														<a href=\"".$appdir."/index.php/Home/Logout\">登出</a>
+														<a href="'.$appdir.'"/index.php/Home/Logout">登出</a>
 													</li>
-												</ul>	"; else echo "	<li>
-													<a href=\"".$appdir."/index.php/Home/login\">登录</a>
+												</ul>	'; else echo '	<li>
+													<a href="'.$appdir.'"/index.php/Home/login">登录</a>
 												</li>	
 												<li>
-													<a href=\"".$appdir."/index.php/Home/register\">注册</a>
-												</li>	"; ?>
+													<a href="'.$appdir.'"/index.php/Home/register">注册</a>
+												</li>	'; ?>
 								</li>
 							</ul>
 						</div>

@@ -17,60 +17,30 @@ body{
 </head>
 
 <body>
-	<?php
- if($type >= 1 or $type <=3){ echo'
-			<div class="container-fluid">
-				<div class="row-fluid">
-					<div class="span2">
-					</div>
-					<div class="span3">
-					<form method="post" action="'.$appdir.'/index.php/Meet/updateCheckIn/type/'.$type.'">
-					  <div class="control-group">
-						<label class="control-label" for="attach0">想遇见怎样的人 , 一起去看电影呢 ?</label>
-						<div class="controls">
-						  <textarea name="attach0" id="attach0" rows="3">'.$meeting['attach0'].'</textarea>
-						</div>
-					  </div>
-					  <div class="control-group">
-						<label class="control-label" for="attach1">你心目中经典的电影有 ? 为什么 ?</label>
-						<div class="controls">
-						  <textarea name="attach1" id="attach1" rows="3">'.$meeting['attach1'].'</textarea>
-						</div>
-					  </div>
-					  <div class="control-group">
-						<label class="control-label" for="attach2">假如你是制片人 , 会拍什么 ?</label>
-						<div class="controls">
-						  <textarea name="attach2" id="attach2" rows="3">'.$meeting['attach2'].'</textarea>
-						</div>
-					  </div>
-					  <div class="control-group">
-						<label class="control-label" for="attach3">你喜欢的演员、导演和代表作是 ?</label>
-						<div class="controls">
-						  <textarea name="attach3" id="attach3" rows="3">'.$meeting['attach3'].'</textarea>
-						</div>
-					  </div>
-					  <div class="control-group">
-						<label class="control-label" for="attach4">写几句让你印象深刻的台词 ?</label>
-						<div class="controls">
-						  <textarea name="attach4" id="attach4" rows="3">'.$meeting['attach4'].'</textarea>
-						</div>
-					  </div>
-					  <div class="control-group">
-						<label class="control-label" for="attach5">哪些电影片段 , 让你情不自禁 ?</label>
-						<div class="controls">
-						  <textarea name="attach5" id="attach5" rows="3">'.$meeting['attach5'].'</textarea>
-						</div>
-					  </div>
-					  <div class="control-group">
-						<div class="controls">
-						  <button type="submit" class="btn">完成</button>
-						</div>
-					  </div>
-					</form>
-					</div>
-					<div class="span7">
-					</div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span2">
+			</div>
+			<div class="span3">
+			<form method="post" action="'.$appdir.'/index.php/Meet/updateCheckIn/type/'.$type.'">
+				<?php
+ for($i = 0; $i < count($attach_info)-2; $i++){ $index_attach_info = "attach_info".$i; $index_attach = "attach".$i; if($attach_info[$index_attach_info] != null) echo'
+								<div class="control-group">
+									<label class="control-label" for="attach0">'.$attach_info[$index_attach_info].'</label>
+									<div class="controls">
+										<textarea name="attach0" id="attach0" rows="3">'.$meeting[$index_attach].'</textarea>
+									</div>
+								</div>
+								'; } ?>
+			  <div class="control-group">
+				<div class="controls">
+				  <button type="submit" class="btn">完成</button>
 				</div>
-			</div>	
-			'; } ?>
+			  </div>
+			</form>
+			</div>
+			<div class="span7">
+			</div>
+		</div>
+	</div>	
 </body>

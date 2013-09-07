@@ -60,12 +60,20 @@ class MeetAction extends Action {
 		$this->assign('type',$type);
 		
 		$rs1 = $Meeting->where($condition)->select();
-		
 		if($rs1){
 			$this->assign('meeting',$rs1[0]);
 		}
 		else{
 			$this->assign('meeting',null);
+		}
+		
+		$MeetingAttachInfo = M('MeetingAttachInfo');
+		$rs2 = $MeetingAttachInfo->where($condition)->select();
+		if($rs2){
+			$this->assign('attach_info',$rs2[0]);
+		}
+		else{
+			$this->assign('attach_info',null);
 		}
 		
 		$this->display();
