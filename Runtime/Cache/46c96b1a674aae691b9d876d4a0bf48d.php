@@ -1,9 +1,9 @@
-	<div class="row-fluid">
+<?php if (!defined('THINK_PATH')) exit();?>	<div class="row-fluid">
 		<div class="span12">
 			<div class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
 					<div class="container-fluid">
-						<a class="btn btn-navbar" data-target=".navbar-responsive-collapse" data-toggle="collapse"></a> <a class="brand" href="{$appdir}/index.php/Home">PapaWith.Me!</a>
+						<a class="btn btn-navbar" data-target=".navbar-responsive-collapse" data-toggle="collapse"></a> <a class="brand" href="<?php echo ($appdir); ?>/index.php/Home">PapaWith.Me!</a>
 						<div class="nav-collapse collapse navbar-responsive-collapse">
 							<ul class="nav">
 								<li class="active">
@@ -13,38 +13,31 @@
 									<a href="#">文</a>
 								</li>
 								<li>
-									<a href="{$appdir}/index.php/Board">告</a>
+									<a href="<?php echo ($appdir); ?>/index.php/Board">告</a>
 								</li>
 							</ul>
 							<ul class="nav pull-right">
 								<?php
-									if (cookie('user_name')!=null){ 
-										echo '
+ if (cookie('user_name')!=null){ echo '
 											<li>
 												<a href='.$appdir.'/index.php/Home/profile>我</a>
 											</li>
-											';
-									}
-								?>
+											'; } ?>
 								<li class="divider-vertical">
 								</li>
 								<li class="dropdown">
 									<?php
-									if (cookie('user_name')!=null) 
-										echo '	<a class="dropdown-toggle" data-toggle="dropdown" href="#">'.cookie('user_name').'</a>
+ if (cookie('user_name')!=null) echo '	<a class="dropdown-toggle" data-toggle="dropdown" href="#">'.cookie('user_name').'</a>
 												<ul class="dropdown-menu">
 													<li>
 														<a href="'.$appdir.'/index.php/Home/Logout">登出</a>
 													</li>
-												</ul>	';
-									else
-										echo '	<li>
+												</ul>	'; else echo '	<li>
 													<a href="'.$appdir.'/index.php/Home/login">登录</a>
 												</li>	
 												<li>
 													<a href="'.$appdir.'/index.php/Home/register">注册</a>
-												</li>	';
-									?>
+												</li>	'; ?>
 								</li>
 							</ul>
 						</div>
