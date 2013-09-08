@@ -14,7 +14,7 @@ body{
 <title>Welcome to Papawithme!</title>
 </head>
 
-<body>
+<body background="<?php echo ($public); ?>/resources/bg/bg.png">
 <div class="container-fluid">
 	
 	<div class="row-fluid">
