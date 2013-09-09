@@ -74,6 +74,40 @@
 					  `attribute5` TINYINT DEFAULT 1,
 					  `attribute6` TINYINT DEFAULT 1,
 					  `free_points` TINYINT DEFAULT 5,
+					  `attribute0_increase` float DEFAULT 0,
+					  `attribute1_increase` float DEFAULT 0,
+					  `attribute2_increase` float DEFAULT 0,
+					  `attribute3_increase` float DEFAULT 0,
+					  `attribute4_increase` float DEFAULT 0,
+					  `attribute5_increase` float DEFAULT 0,
+					  `attribute6_increase` float DEFAULT 0,
+					  PRIMARY KEY (`attribute_id`),
+					  UNIQUE KEY `user_name` (`user_name`)
+					)
+					ENGINE = InnoDB DEFAULT CHARSET=utf8;
+				");
+				echo 'user_attribute 创建成功！<br>';
+				
+				$model->execute("drop table if exists `papawithme`.`think_task`;");
+				$model->execute("
+					CREATE TABLE `papawithme`.`think_task` (
+					  `task_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+					  `user_name` VARCHAR(45) NOT NULL,
+					  `attribute0` TINYINT DEFAULT 1,
+					  `attribute1` TINYINT DEFAULT 1,
+					  `attribute2` TINYINT DEFAULT 1,
+					  `attribute3` TINYINT DEFAULT 1,
+					  `attribute4` TINYINT DEFAULT 1,
+					  `attribute5` TINYINT DEFAULT 1,
+					  `attribute6` TINYINT DEFAULT 1,
+					  `free_points` TINYINT DEFAULT 5,
+					  `attribute0_increase` float DEFAULT 0,
+					  `attribute1_increase` float DEFAULT 0,
+					  `attribute2_increase` float DEFAULT 0,
+					  `attribute3_increase` float DEFAULT 0,
+					  `attribute4_increase` float DEFAULT 0,
+					  `attribute5_increase` float DEFAULT 0,
+					  `attribute6_increase` float DEFAULT 0,
 					  PRIMARY KEY (`attribute_id`),
 					  UNIQUE KEY `user_name` (`user_name`)
 					)

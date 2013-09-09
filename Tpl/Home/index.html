@@ -29,6 +29,7 @@ body{
 					example menus 
 					these menus will be on top of the push wrapper
 				-->
+			<div class="span2">
 			<nav class="st-menu st-effect-1" id="menu-1">
 				<ul>
 					<li><a  href="#">任务</a></li>
@@ -68,16 +69,18 @@ body{
 					</ul>
 				</nav>
 			</div>
+			</div>
 			
 			<!-- content push wrapper -->
 			<div class="st-pusher">
 				<div class="st-content"><!-- this is the wrapper for the content -->
 					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->	
 						<div class="main clearfix">
+							<h2>完成任务，获得成长点数</h2>
 							<div id="st-trigger-effects" class="column">
-								<button data-effect="st-effect-1">Slide in on top</button>
-								<button data-effect="st-effect-2">Reveal</button>
-								<button data-effect="st-effect-3">Push</button>
+								<button data-effect="st-effect-1">获取任务</button>
+								<button data-effect="st-effect-2">获取任务</button>
+								<button data-effect="st-effect-3">获取任务</button>
 							</div>
 						</div><!-- /main -->
 					</div><!-- /st-content-inner -->
