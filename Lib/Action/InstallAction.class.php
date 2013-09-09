@@ -1,6 +1,7 @@
 <?php
 	class InstallAction extends Action{
 			public function index() {
+			
 				header("Content-type: text/html; charset=utf-8"); 
 				echo "Papawithme installing...<br />";
 				$model = M();
@@ -144,6 +145,30 @@
 				}
 				
 				echo 'think_meeting_attach_info 创建成功！<br>';
+				
+				//清理文件夹
+				function deldir($dir) {
+					//先删除目录下的文件：
+					$dh=opendir($dir);
+					while ($file=readdir($dh)) {
+						if($file!="." && $file!="..") {
+							$fullpath=$dir."/".$file;
+							if(!is_dir($fullpath)) {
+								unlink($fullpath);
+							} else {
+								deldir($fullpath);
+							}
+						}
+					}
+					closedir($dh);
+					//删除当前文件夹：
+					if(rmdir($dir)) {
+						return true;
+					} else {
+						return false;
+					}
+				}
+				deldir('./Public/Uploads');
 					
 					
 				$User = M('User');
