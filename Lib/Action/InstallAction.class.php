@@ -2,6 +2,10 @@
 	class InstallAction extends Action{
 			public function index() {
 			
+				set_time_limit(0);
+				ob_end_clean();
+				ob_implicit_flush(1);
+			
 				header("Content-type: text/html; charset=utf-8"); 
 				echo "Papawithme installing...<br />";
 				$model = M();
@@ -91,29 +95,37 @@
 				$model->execute("drop table if exists `papawithme`.`think_task`;");
 				$model->execute("
 					CREATE TABLE `papawithme`.`think_task` (
-					  `task_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
-					  `user_name` VARCHAR(45) NOT NULL,
-					  `attribute0` TINYINT DEFAULT 1,
-					  `attribute1` TINYINT DEFAULT 1,
-					  `attribute2` TINYINT DEFAULT 1,
-					  `attribute3` TINYINT DEFAULT 1,
-					  `attribute4` TINYINT DEFAULT 1,
-					  `attribute5` TINYINT DEFAULT 1,
-					  `attribute6` TINYINT DEFAULT 1,
-					  `free_points` TINYINT DEFAULT 5,
-					  `attribute0_increase` float DEFAULT 0,
-					  `attribute1_increase` float DEFAULT 0,
-					  `attribute2_increase` float DEFAULT 0,
-					  `attribute3_increase` float DEFAULT 0,
-					  `attribute4_increase` float DEFAULT 0,
-					  `attribute5_increase` float DEFAULT 0,
-					  `attribute6_increase` float DEFAULT 0,
-					  PRIMARY KEY (`attribute_id`),
-					  UNIQUE KEY `user_name` (`user_name`)
+						`task_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+						`task_name` VARCHAR(45) NOT NULL,
+						`type` SMALLINT NOT NULL,
+						`publisher_name` VARCHAR(45) NOT NULL,
+						`attribute0_increase` float DEFAULT 0,
+						`attribute1_increase` float DEFAULT 0,
+						`attribute2_increase` float DEFAULT 0,
+						`attribute3_increase` float DEFAULT 0,
+						`attribute4_increase` float DEFAULT 0,
+						`attribute5_increase` float DEFAULT 0,
+						`attribute6_increase` float DEFAULT 0,
+						PRIMARY KEY (`task_id`),
+						UNIQUE KEY `task_name` (`task_name`)
+						
 					)
 					ENGINE = InnoDB DEFAULT CHARSET=utf8;
 				");
-				echo 'user_attribute 创建成功！<br>';
+				echo 'task 创建成功！<br>';
+				
+				$model->execute("drop table if exists `papawithme`.`think_task_user`;");
+				$model->execute("
+					CREATE TABLE `papawithme`.`think_task_user` (
+						`task_user_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+						`task_name` VARCHAR(45) NOT NULL, 
+						`user_name` VARCHAR(45) NOT NULL, 
+						`state` SMALLINT NOT NULL DEFAULT 0,
+						PRIMARY KEY (`task_user_id`)
+					)
+					ENGINE = InnoDB DEFAULT CHARSET=utf8;
+				");
+				echo 'think_task_user 创建成功！<br>';
 				
 				$model->execute("drop table if exists `papawithme`.`think_meeting_attach_info`;");
 				$model->execute("
@@ -130,8 +142,7 @@
 					  UNIQUE KEY `user_name` (`type`)
 					)
 					ENGINE = InnoDB DEFAULT CHARSET=utf8;
-				");
-				
+				");	
 				/*初始化attach的一些说明信息*/
 				$MeetingAttachInfo = M('MeetingAttachInfo');
 				$data['attach_info0'] = "想遇见怎样的人 , 一起去看电影呢 ?";

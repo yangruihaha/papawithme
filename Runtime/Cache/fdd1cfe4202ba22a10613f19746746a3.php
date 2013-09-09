@@ -22,7 +22,7 @@ body{
 			<div class="span2">
 			</div>
 			<div class="span3">
-			<form method="post" action="'.$appdir.'/index.php/Meet/updateCheckIn/type/'.$type.'">
+			<form method="post" action="<?php echo ($appdir); ?>/index.php/Meet/updateCheckIn/type/<?php echo ($type); ?>">
 				<?php
  for($i = 0; $i < count($attach_info)-2; $i++){ $index_attach_info = "attach_info".$i; $index_attach = "attach".$i; if($attach_info[$index_attach_info] != null) echo'
 								<div class="control-group">
