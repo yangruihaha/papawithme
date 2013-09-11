@@ -48,13 +48,13 @@ body{
 					<div class="control-group">
 						 <label class="control-label" for="inputEmail">邮箱</label>
 						<div class="controls">
-							<input name="user_email" id="inputEmail" type="text" />
+							<input name="user_email" id="inputEmail" type="email" required="required" />
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="inputPassword">密码</label>
 						<div class="controls">
-							<input name="user_psd" id="inputPassword" type="password" />
+							<input name="user_psd" id="inputPassword" type="password" required="required" />
 						</div>
 					</div>
 					<div class="control-group">

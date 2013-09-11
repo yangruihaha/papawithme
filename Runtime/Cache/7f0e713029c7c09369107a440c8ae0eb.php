@@ -48,25 +48,25 @@ body{
 					<div class="control-group">
 						 <label class="control-label" for="inputName">用户名</label>
 						<div class="controls">
-							<input name="user_name" id="inputName" type="text" />
+							<input name="user_name" id="inputName" type="text" required="required"/>
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="inputEmail">邮箱</label>
 						<div class="controls">
-							<input name="user_email" id="inputEmail" type="text" />
+							<input name="user_email" id="inputEmail" type="email" required="required"/>
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="inputPassword">密码</label>
 						<div class="controls">
-							<input name="user_psd" id="inputPassword" type="password" />
+							<input name="user_psd" id="inputPassword" type="password" required="required"/>
 						</div>
 					</div>
 					<div class="control-group">
 						 <label class="control-label" for="inputPasswordCheck">重复密码</label>
 						<div class="controls">
-							<input name="user_psd_check" id="inputPasswordCheck" type="password" />
+							<input name="user_psd_check" id="inputPasswordCheck" type="password" required="required"/>
 						</div>
 					</div>
 					<div class="control-group">

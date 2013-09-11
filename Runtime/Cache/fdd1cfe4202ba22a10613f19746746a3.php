@@ -26,9 +26,9 @@ body{
 				<?php
  for($i = 0; $i < count($attach_info)-2; $i++){ $index_attach_info = "attach_info".$i; $index_attach = "attach".$i; if($attach_info[$index_attach_info] != null) echo'
 								<div class="control-group">
-									<label class="control-label" for="attach0">'.$attach_info[$index_attach_info].'</label>
+									<label class="control-label" for="'.$index_attach.'">'.$attach_info[$index_attach_info].'</label>
 									<div class="controls">
-										<textarea name="attach0" id="attach0" rows="3">'.$meeting[$index_attach].'</textarea>
+										<textarea name="'.$index_attach.'" id="'.$index_attach.'" rows="3" required="required">'.$meeting[$index_attach].'</textarea>
 									</div>
 								</div>
 								'; } ?>

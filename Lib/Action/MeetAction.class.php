@@ -94,6 +94,7 @@ class MeetAction extends Action {
 		$data['attach5'] = $this->_param('attach5');
 		
 		$condition['user_name'] = cookie('user_name');
+		$condition['type'] = $type;
 		
 		if($Meeting->add($data)){
 			$this->success('数据保存成功！', '../../../Home');
@@ -103,7 +104,7 @@ class MeetAction extends Action {
 		}
 		else{
 			print_r($data);
-			$this->error('数据保存失败，或许你什么都没有改？', '../../../Home');
+			//$this->error('数据保存失败，或许你什么都没有改？', '../../../Home');
 		}
 	}
 	
