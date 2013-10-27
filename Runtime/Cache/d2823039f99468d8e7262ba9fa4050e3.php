@@ -2,6 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="<?php echo ($public); ?>/plugin/sidebar/css/demo.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo ($public); ?>/plugin/sidebar/css/component.css" />
+<script src="<?php echo ($public); ?>/plugin/sidebar/js/modernizr.custom.js"></script>
+
  <!-- Bootstrap -->
 <link href="<?php echo ($public); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <style>
@@ -11,11 +16,80 @@ body{
 </style>
 
 <script type="text/javascript" src="<?php echo ($public); ?>/jQuery/Chart.min.js"></script>
+
+
 <title>Welcome to Papawithme!</title>
 </head>
 
-<body>
+<body background="<?php echo ($public); ?>/resources/bg/bg.png">
 <div class="container-fluid">
+	<div class="row-fluid">
+		<div id="st-container" class="st-container">
+				<!-- 	
+					example menus 
+					these menus will be on top of the push wrapper
+				-->
+			<div class="span2">
+			<nav class="st-menu st-effect-1" id="menu-1">
+				<ul>
+					<li><a  href="#">任务</a></li>
+					<li><a  href="#">任务</a></li>
+					<li><a  href="#">任务</a></li>
+					<li><a  href="#">任务</a></li>
+					<li><a  href="#">任务</a></li>
+					<li><a  href="#">任务</a></li>
+				</ul>
+			</nav>
+			
+			<nav class="st-menu st-effect-2" id="menu-2">
+				<ul>
+					<li><a  href="#">任务</a></li>
+					<li><a  href="#">任务</a></li>
+					<li><a  href="#">任务</a></li>
+					<li><a  href="#">任务</a></li>
+					<li><a  href="#">任务</a></li>
+					<li><a  href="#">任务</a></li>
+				</ul>
+			</nav>
+			
+			<!-- content push wrapper -->
+			<div class="st-pusher">
+				<!-- 	
+					example menus 
+					these menus will be under the push wrapper
+				-->
+				<nav class="st-menu st-effect-3" id="menu-3">
+					<ul>
+						<li><a  href="#">任务</a></li>
+						<li><a  href="#">任务</a></li>
+						<li><a  href="#">任务</a></li>
+						<li><a  href="#">任务</a></li>
+						<li><a  href="#">任务</a></li>
+						<li><a  href="#">任务</a></li>
+					</ul>
+				</nav>
+			</div>
+			</div>
+			
+			<!-- content push wrapper -->
+			<div class="st-pusher">
+				<div class="st-content"><!-- this is the wrapper for the content -->
+					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->	
+						<div class="main clearfix">
+							<h2>完成任务，获得成长点数</h2>
+							<div id="st-trigger-effects" class="column">
+								<button data-effect="st-effect-1">获取任务</button>
+								<button data-effect="st-effect-2">获取任务</button>
+								<button data-effect="st-effect-3">获取任务</button>
+							</div>
+						</div><!-- /main -->
+					</div><!-- /st-content-inner -->
+				</div><!-- /st-content -->
+			</div><!-- /st-pusher -->
+		</div><!-- /st-container -->
+		<script src="<?php echo ($public); ?>/plugin/sidebar/js/classie.js"></script>
+		<script src="<?php echo ($public); ?>/plugin/sidebar/js/sidebarEffects.js"></script>
+	</div>
 	
 	<div class="row-fluid">
 		<div class="span2">

@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?>	<div class="row-fluid">
 		<div class="span12">
-			<div class="navbar navbar-fixed-top">
+			<div class="navbar navbar-inverse navbar-fixed-top">
 				<div class="navbar-inner">
 					<div class="container-fluid">
 						<a class="btn btn-navbar" data-target=".navbar-responsive-collapse" data-toggle="collapse"></a> <a class="brand" href="<?php echo ($appdir); ?>/index.php/Home">PapaWith.Me!</a>
