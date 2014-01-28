@@ -6,7 +6,7 @@ class HomeAction extends Action {
 		$this->assign('public','http://localhost/papawithme/' . 'Public');
 		
 		$this->display();
-		$this->display('../menu');
+		#$this->display('../menu');
     }
 	
 	public function logout(){
