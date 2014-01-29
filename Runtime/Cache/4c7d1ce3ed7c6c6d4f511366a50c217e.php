@@ -2,16 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <!-- Bootstrap -->
-<link href="<?php echo ($public); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" type="text/css" href="<?php echo ($public); ?>/css/general.css" />
+
+<link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+<link href="http://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet" type="text/css">
 <style>
 body{
 	padding-top:60px
 }
 </style>
-
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="<?php echo ($public); ?>/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo ($public); ?>/jQuery/jquery.form.min.js"></script>
 
 <script type="text/javascript">	
@@ -37,36 +39,55 @@ body{
 </head>
 
 <body>
-<div class="container-fluid">
+<div class="container">
 	
-	<div class="container-fluid">
-		<div class="row-fluid">
-			<div class="span2">
-			</div>
-			<div class="span6">
-				<form class="form-horizontal" id="login_form" method="post" action="<?php echo ($appdir); ?>/index.php/Index/Login">
-					<div class="control-group">
-						 <label class="control-label" for="inputEmail">邮箱</label>
-						<div class="controls">
-							<input name="user_email" id="inputEmail" type="email" required="required" />
-						</div>
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<section class="loginBox">
+				<p>login or sign up</p>
+				<div class="form-group col-md-10 col-md-offset-1 inputBox">
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email">
+			    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
+			  	</div>
+			  	<div class="form-group col-md-10 col-md-offset-1 btnBox">
+			  		<button type="submit" class="form-control btn btn-primary">Let's go</button>
+			  	</div>
+			  	<div class="form-group">
+				  	<small>Opps! I forgot my password</small>
+				  	<div class="line_05">————————————————<span class="circle">or</span>—————————————————</div>
+				</div>
+				<div class="col-md-6 col-md-offset-1 btnBox">
+			  		<button type="submit" class="form-control btn btn-primary">sign up or with</button>
+			  	</div>
+			</section>
+
+
+		<!---
+			<form class="form-horizontal" id="login_form" method="post" action="<?php echo ($appdir); ?>/index.php/Index/Login">
+				<div class="control-group">
+					 <label class="control-label" for="inputEmail">邮箱</label>
+					<div class="controls">
+						<input name="user_email" id="inputEmail" type="email" required="required" />
 					</div>
-					<div class="control-group">
-						 <label class="control-label" for="inputPassword">密码</label>
-						<div class="controls">
-							<input name="user_psd" id="inputPassword" type="password" required="required" />
-						</div>
+				</div>
+				<div class="control-group">
+					 <label class="control-label" for="inputPassword">密码</label>
+					<div class="controls">
+						<input name="user_psd" id="inputPassword" type="password" required="required" />
 					</div>
-					<div class="control-group">
-						<div class="controls">
-							<div id="res_text" style="display:none;"></div>
-							<button type="submit" class="btn">登陆</button>
-						</div>
+				</div>
+				<div class="control-group">
+					<div class="controls">
+						<div id="res_text" style="display:none;"></div>
+						<button type="submit" class="btn">登陆</button>
 					</div>
-				</form>
-			</div>
-			<div class="span4">
-			</div>
+				</div>
+			</form>
+		-->
+		</div>
+		<div class="col-md-4">
 		</div>
 	</div>
 	

@@ -10,3 +10,65 @@ img.profile{
 	-moz-box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.25);
 	box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.25);
 }
+
+.loginBox{
+	width:300px;
+	height:400px;
+
+	margin-top: 50px;
+	margin-left: 30px;
+
+	-webkit-box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0), 0px 0px 30px 8px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0), 0px 0px 30px 8px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0), 0px 0px 30px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+
+	color: #666666;
+	font-family: 'Josefin Slab', Arial, sans-serif;
+}
+
+.loginBox p{
+	padding-top: 40px;
+	font-size: 30px;
+}
+
+.loginBox small{
+	color: #333333;
+	font-size: 15px;
+}
+
+.loginBox input{
+	background-color:#DDDDDD;
+}
+
+.loginBox .inputBox{
+	margin-top: 5%;
+}
+
+.loginBox .btnBox{
+	margin-top: 2%;
+}
+
+.line_01{
+	margin-top: 7%;
+    line-height: 1px;
+    border-left: 120px solid #777777;
+    border-right: 120px solid #777777;
+    text-align: center;
+
+    font-size: 20px;
+    color: #333333;
+}
+
+.line_05{
+	letter-spacing: -3px;
+    color: #666666;
+}
+
+.line_05 span{
+    letter-spacing: 0;
+    font-size: 20px;
+    color: #333333;
+    margin:0 10px;
+}
+
