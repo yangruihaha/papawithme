@@ -26,7 +26,7 @@
 				</li>
 				<li class="menu-li">
                 	<ul>
-						<li><a id="fancy_login" href="<?php echo ($appdir); ?>/index.php/Home" title="Welcome! My PaPartner"><img src="<?php echo ($public); ?>/resources/menu/login.png" class="login" /></a></li>
+						<li><a id="fancy_login" href="<?php echo ($appdir); ?>/index.php/Home/login" title="Welcome! My PaPartner"><img src="<?php echo ($public); ?>/resources/menu/login.png" class="login" /></a></li>
                         <li><p id="login">Login</p></li>
                     </ul>
 				</li>

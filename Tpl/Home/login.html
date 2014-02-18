@@ -14,7 +14,7 @@ body{
 	padding-top:60px
 }
 </style>
-<script type="text/javascript" src="{$public}/jQuery/jquery.form.min.js"></script>
+<script src="http://cdn.bootcss.com/jquery.form/3.46/jquery.form.min.js"></script>
 
 <script type="text/javascript">	
 		$('#login_form').ajaxForm({
@@ -46,21 +46,24 @@ body{
 		</div>
 		<div class="col-md-4">
 			<section class="loginBox">
-				<p>login or sign up</p>
-				<div class="form-group col-md-10 col-md-offset-1 inputBox">
-				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email">
-			    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
-			  	</div>
-			  	<div class="form-group col-md-10 col-md-offset-1 btnBox">
-			  		<button type="submit" class="form-control btn btn-primary">Let's go</button>
-			  	</div>
-			  	<div class="form-group">
-				  	<small>Opps! I forgot my password</small>
-				  	<div class="line_05">————————————————<span class="circle">or</span>—————————————————</div>
-				</div>
-				<div class="col-md-6 col-md-offset-1 btnBox">
-			  		<button type="submit" class="form-control btn btn-primary">sign up or with</button>
-			  	</div>
+				<form role="form" id="login_form" method="post" action="{$appdir}/index.php/Index/Login">
+					<p>login or sign up</p>
+					<div class="form-group col-md-10 col-md-offset-1 inputBox">
+					    <input name="user_email" type="email" required="required" class="form-control" id="exampleInputEmail1" placeholder="email">
+				    	<input name="user_psd" type="password" required="required" class="form-control" id="exampleInputPassword1" placeholder="password">
+				  	</div>
+				  	<div class="form-group col-md-10 col-md-offset-1 btnBox">
+				  		<button type="submit" class="form-control btn btn-primary">Let's go</button>
+				  	</div>
+				  	<div class="form-group">
+				  		<div id="res_text"></div>
+					  	<small>Opps! I forgot my password</small>
+					  	<div class="line_05">————————————————<span class="circle">or</span>—————————————————</div>
+					</div>
+					<div class="col-md-6 col-md-offset-1 btnBox">
+				  		<button type="submit" class="form-control btn btn-primary">sign up or with</button>
+				  	</div>
+			    </form>
 			</section>
 
 
